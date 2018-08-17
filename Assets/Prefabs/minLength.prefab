@@ -9,34 +9,34 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1295168808374958}
+  m_RootGameObject: {fileID: 1491435220255982}
   m_IsPrefabParent: 1
---- !u!1 &1295168808374958
+--- !u!1 &1491435220255982
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224004245987031502}
-  - component: {fileID: 222704842639060402}
-  - component: {fileID: 114365154066519610}
-  - component: {fileID: 114225022240326522}
-  - component: {fileID: 61297911190197306}
-  - component: {fileID: 114556063039882148}
+  - component: {fileID: 224340977490514736}
+  - component: {fileID: 61978229217876254}
+  - component: {fileID: 222456960840082804}
+  - component: {fileID: 114108771461536178}
+  - component: {fileID: 114606677639428674}
+  - component: {fileID: 114128254677586902}
   m_Layer: 8
-  m_Name: Sticky
+  m_Name: minLength
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &61297911190197306
+--- !u!61 &61978229217876254
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1295168808374958}
+  m_GameObject: {fileID: 1491435220255982}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -54,33 +54,21 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 8}
+  m_Size: {x: 10, y: 10}
   m_EdgeRadius: 0
---- !u!114 &114225022240326522
+--- !u!114 &114108771461536178
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1295168808374958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72d89bd66b7fa864eb32000d076dc178, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 10
---- !u!114 &114365154066519610
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1295168808374958}
+  m_GameObject: {fileID: 1491435220255982}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.07931034, g: 0.6764706, b: 0, a: 1}
+  m_Color: {r: 0.97794116, g: 0.67454135, b: 0.021572253, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -95,30 +83,42 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114556063039882148
+--- !u!114 &114128254677586902
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1295168808374958}
+  m_GameObject: {fileID: 1491435220255982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124ccf67af9cb6146abeb93c19139f77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 10
+--- !u!114 &114606677639428674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1491435220255982}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4346d63fe3a02a40b4281950f12558c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
---- !u!222 &222704842639060402
+--- !u!222 &222456960840082804
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1295168808374958}
---- !u!224 &224004245987031502
+  m_GameObject: {fileID: 1491435220255982}
+--- !u!224 &224340977490514736
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1295168808374958}
+  m_GameObject: {fileID: 1491435220255982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -129,5 +129,5 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 10, y: 8}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}

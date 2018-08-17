@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 61502134608768558}
   - component: {fileID: 50512267889454836}
   - component: {fileID: 114576229802924606}
+  - component: {fileID: 114783194830334182}
   m_Layer: 5
   m_Name: player
   m_TagString: Player
@@ -101,8 +102,8 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 7042da25cb2df7f4aba29e3f71c3e24a, type: 2}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.022058845, b: 0.022058845, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -131,6 +132,22 @@ MonoBehaviour:
   speed: 150
   projectile1: {fileID: 1117108874906208, guid: 27b11740d8434f8428d6f981a58941a2,
     type: 2}
+  longMode: 0
+  shortMode: 0
+  normalSprite: {fileID: 0}
+  longSprite: {fileID: 0}
+  shortSprite: {fileID: 0}
+--- !u!114 &114783194830334182
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289632639722838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &222537756297792840
 CanvasRenderer:
   m_ObjectHideFlags: 1
