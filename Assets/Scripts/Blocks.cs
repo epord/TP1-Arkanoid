@@ -10,12 +10,15 @@ public class Blocks : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D collisionInfo)
     {
         hp--;
-        if(hp == 0)
+        if(hp <= 0)
         {
-            var bonus = Instantiate(bonusObject);
-            bonus.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
-            bonus.transform.position = transform.position;
-            bonus.transform.rotation = transform.rotation;
+            if (bonusObject != null)
+            {
+                var bonus = Instantiate(bonusObject);
+                //bonus.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
+                bonus.transform.position = transform.position;
+                bonus.transform.rotation = transform.rotation;
+            }
             Destroy(gameObject);    
         }
         

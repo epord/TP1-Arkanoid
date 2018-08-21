@@ -48,7 +48,7 @@ public class mover : MonoBehaviour {
             float playerY = transform.position.y + 5;
 
             var bullet = Instantiate(projectile1);
-            bullet.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
+            // bullet.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
             bullet.transform.position = new Vector2(playerX, playerY);
             bullet.transform.rotation = transform.rotation;
             Destroy(bullet, 2);
@@ -63,25 +63,34 @@ public class mover : MonoBehaviour {
     {
         longMode = true;
         //Update image and size of both transform and Boxcollider
-        m_Image.sprite = longSprite;
-        var temp = m_Transform.localScale;
-        temp.x += const_modifyLength;
-        m_Transform.localScale = temp;
-        temp = m_BoxCollider2D.size;
-        temp.x += const_modifyLength;
-        m_BoxCollider2D.size = temp;
+        var scale = this.transform.localScale;
+        scale.x += 0.5f;
+        this.transform.localScale = scale;
+
+        //m_Image.sprite = longSprite;
+        //var temp = m_Transform.localScale;
+        //temp.x += const_modifyLength;
+        //m_Transform.localScale = temp;
+        //temp = m_BoxCollider2D.size;
+        //temp.x += const_modifyLength;
+        //m_BoxCollider2D.size = temp;
     }
 
     public void unSetLongMode()
     {
         longMode = false;
         //Update image and size of both transform and Boxcollider
-        m_Image.sprite = shortSprite;
-        var temp = m_Transform.localScale;
-        temp.x -= const_modifyLength;
-        m_Transform.localScale = temp;
-        temp = m_BoxCollider2D.size;
-        temp.x -= const_modifyLength;
-        m_BoxCollider2D.size = temp;
+        //m_Image.sprite = shortSprite;
+        var scale = this.transform.localScale;
+        scale.x /= 1.5f;
+        this.transform.localScale = scale;
+
+
+        //var temp = m_Transform.localScale;
+        //temp.x -= const_modifyLength;
+        //m_Transform.localScale = temp;
+        //temp = m_BoxCollider2D.size;
+        //temp.x -= const_modifyLength;
+        //m_BoxCollider2D.size = temp;
     }
 }

@@ -7,15 +7,17 @@ public class Ball_move : MonoBehaviour {
     public GameObject player;
     public float initialSpeed = 200;
     public float slowMultiplier = 0.5f;
-    private float speed;
+    public float speed;
     private float stickyOffset;
     public bool stickMode;
     private bool sticked;
     private Vector2 oldDir;
+    public Vector2 initialDir = Vector2.up;
     // Use this for initialization
     void Start () {
         speed = initialSpeed;
-        GetComponent<Rigidbody2D>().velocity = Vector2.up * speed;
+        GetComponent<Rigidbody2D>().velocity = initialDir * speed;
+        player = GameObject.Find("player");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -47,11 +49,29 @@ public class Ball_move : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < 0)
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void LateUpdate()
+    {
         if (sticked)
         {
-            var temp = this.transform.position;
-            temp.x = player.transform.position.x + stickyOffset;
-            this.transform.position = temp;
+            if (Input.GetKey(KeyCode.Space))
+            {
+                sticked = false;
+                speed = initialSpeed;
+                stickyOffset = 0;
+                GetComponent<Rigidbody2D>().velocity = oldDir * speed;
+            }
+            else
+            {
+                var temp = this.transform.position;
+                temp.x = player.transform.position.x + stickyOffset;
+                this.transform.position = temp;
+            }
         }
     }
 
@@ -64,9 +84,13 @@ public class Ball_move : MonoBehaviour {
     public void NoStickMode()
     {
         stickMode = false;
-        sticked = false;
-        speed = initialSpeed;
-        stickyOffset = 0;
-        GetComponent<Rigidbody2D>().velocity = oldDir * speed;
+        if (sticked)
+        {
+            sticked = false;
+            speed = initialSpeed;
+            stickyOffset = 0;
+            GetComponent<Rigidbody2D>().velocity = oldDir * speed;
+        }
+        
     }
 }
