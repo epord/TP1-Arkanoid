@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class mover : MonoBehaviour {
 
     public float speed = 150;
-    public GameObject projectile1;
     public bool longMode;
     public bool shortMode;
     private Image m_Image;
@@ -42,18 +41,6 @@ public class mover : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            float playerX = transform.position.x;
-            float playerY = transform.position.y + 5;
-
-            var bullet = Instantiate(projectile1);
-            // bullet.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
-            bullet.transform.position = new Vector2(playerX, playerY);
-            bullet.transform.rotation = transform.rotation;
-            Destroy(bullet, 2);
-        }
-
         // Direction and speed
         float h = Input.GetAxisRaw("Horizontal");
         GetComponent<Rigidbody2D>().velocity = Vector2.right * h * speed;

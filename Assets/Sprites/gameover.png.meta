@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: 8257fe2ae8aac21448af9d3eb69784e9
+guid: 6eebbc576f978439b870dd7608035424
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: SNES - Arkanoid Doh It Again - General Sprites_0
+  fileIDToRecycleName: {}
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -41,9 +40,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 1
@@ -81,44 +80,13 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: SNES - Arkanoid Doh It Again - General Sprites_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 481
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ca2e2d6c45f44296a9c1786865c1cf0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 791af40bf870d48de90de3f30dad7740
+    spriteID: 8eb69427db82c4e7d83dc38739261345
     vertices: []
     indices: 
     edges: []

@@ -18,4 +18,11 @@ public class projectile : MonoBehaviour
         Destroy(gameObject);
     }
 
+    private void OnCollisionEnter2D() 
+    {
+        Destroy(gameObject);
+    }
+
+    
+
 }
