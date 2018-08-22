@@ -8,11 +8,13 @@ public class MinLengthPowerUp : MonoBehaviour
     private GameObject player;
     private bool active;
     public float timer = 10;
+    private SoundManager soundManager;
 
     // Use this for initialization
     void Start()
     {
         player = GameObject.Find("player");
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
     }
 
     // Update is called once per frame
@@ -39,6 +41,7 @@ public class MinLengthPowerUp : MonoBehaviour
             var falling = GetComponent<FallingPowerUp>();
             Destroy(falling);
             active = true;
+            soundManager.PlayPowerUp();
         }
     }
 }

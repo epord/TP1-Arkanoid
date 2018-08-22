@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
-
     public GameObject gameOverSprite;
     public GameObject continueSprite;
+    public SoundManager soundManager;
 
     private bool isGameOver = false;
     private float flickeringTime = 0.3f;
@@ -14,12 +14,13 @@ public class GameManager : MonoBehaviour {
     private const float EPSILON = 0.001f;
 
 
-	// Use this for initialization
-	void Start () {
+    void Start()
+    {
+        Instantiate(soundManager);
         Time.timeScale = 1;
         gameOverSprite.GetComponent<Renderer>().enabled = false;
         continueSprite.GetComponent<Renderer>().enabled = false;
-	}
+    }
 	
 	// Update is called once per frame
     void Update () {

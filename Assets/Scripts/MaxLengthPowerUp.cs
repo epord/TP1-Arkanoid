@@ -7,11 +7,13 @@ public class MaxLengthPowerUp : MonoBehaviour {
     private GameObject player;
     private bool active;
     public float timer = 10;
+    private SoundManager soundManager;
 
 	// Use this for initialization
 	void Start () {
         player = GameObject.Find("player");
-	}
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -36,6 +38,7 @@ public class MaxLengthPowerUp : MonoBehaviour {
             active = true;
             player.GetComponent<mover>().setLongMode();
             this.transform.position = new Vector2(-10000, 0);
+            soundManager.PlayPowerUp();
         }
     }
 }

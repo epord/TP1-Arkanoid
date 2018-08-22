@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class TripleBallPowerUp : MonoBehaviour {
     private GameObject player;
+    private SoundManager soundManager;
 
     // Use this for initialization
     void Start () {
         player = GameObject.Find("player");
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
     }
 	
 	// Update is called once per frame
@@ -32,6 +34,7 @@ public class TripleBallPowerUp : MonoBehaviour {
                 CopyBall(ball, new Vector2(0, 1).normalized);
                 CopyBall(ball, new Vector2(1, 1).normalized);
             }
+            soundManager.PlayPowerUp();
             Destroy(this.gameObject);
         }
     }
