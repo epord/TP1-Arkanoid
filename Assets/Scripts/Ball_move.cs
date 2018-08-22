@@ -13,7 +13,8 @@ public class Ball_move : MonoBehaviour {
     private bool sticked;
     private Vector2 oldDir;
     public Vector2 initialDir = Vector2.up;
-    // Use this for initialization
+    public AudioSource collideWithPlayer;
+
     void Start () {
         speed = initialSpeed;
         GetComponent<Rigidbody2D>().velocity = initialDir * speed;
@@ -35,6 +36,7 @@ public class Ball_move : MonoBehaviour {
                 oldDir = newDir;
             }
             GetComponent<Rigidbody2D>().velocity = newDir * speed;
+            collideWithPlayer.Play();
         }   
         
     }
