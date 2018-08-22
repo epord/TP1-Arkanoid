@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour {
 
     void Start()
     {
-        Instantiate(soundManager);
+        //Instantiate(soundManager);
         Time.timeScale = 1;
         gameOverSprite.GetComponent<Renderer>().enabled = false;
         continueSprite.GetComponent<Renderer>().enabled = false;
