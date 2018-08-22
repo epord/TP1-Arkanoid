@@ -7,8 +7,11 @@ public class StickyPowerUp : MonoBehaviour {
     public float timer = 10;
     private bool active;
     private GameObject[] balls;
+    private SoundManager soundManager;
+
     private void Start()
     {
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
     }
 
     public void Update()
@@ -40,7 +43,7 @@ public class StickyPowerUp : MonoBehaviour {
             var falling = GetComponent<FallingPowerUp>();
             Destroy(falling);
             active = true;
-            
+            soundManager.PlayPowerUp();
             //gameObject.SetActive(false);
         }
     }

@@ -100,6 +100,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 10
+  soundManager: {fileID: 114031136524170320, guid: 713515acc0e76e44a8b0e2393e6be06c,
+    type: 2}
 --- !u!114 &114421477738061702
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -8,12 +8,13 @@ public class ProjectilePowerUp : MonoBehaviour {
     private bool active;
 	private GameObject player;
     public GameObject projectile1;
+    private SoundManager soundManager;
 
 	// Use this for initialization
 	void Start () {
 		player = GameObject.Find("player");
-		
-	}
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -44,6 +45,7 @@ public class ProjectilePowerUp : MonoBehaviour {
 			var falling = GetComponent<FallingPowerUp>();
             Destroy(falling);
             active = true;
+            soundManager.PlayPowerUp();
         }
     }
 }

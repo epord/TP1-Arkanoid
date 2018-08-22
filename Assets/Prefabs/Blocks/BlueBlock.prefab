@@ -80,6 +80,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bonusObject: {fileID: 1776269928296430, guid: d326c51753016354c9e027f20183f142,
     type: 2}
+  soundManager: {fileID: 114031136524170320, guid: 713515acc0e76e44a8b0e2393e6be06c,
+    type: 2}
   hp: 1
 --- !u!212 &212598042812718702
 SpriteRenderer:

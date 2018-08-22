@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
+    public SoundManager soundManager;
+
 	// Use this for initialization
 	void Start () {
-		
+        Instantiate(soundManager);
 	}
 	
 	// Update is called once per frame

@@ -653,9 +653,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 860273132}
+  - component: {fileID: 860273133}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -673,6 +674,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &860273133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 860273131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67a0b262e56b446ab881a07c3ada760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 114471395250286492, guid: 713515acc0e76e44a8b0e2393e6be06c,
+    type: 2}
 --- !u!1 &897615692
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,6 +800,11 @@ Prefab:
     - target: {fileID: 4704724457653458, guid: 600e316e126300745a6b70d98f942288, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 114128214697551610, guid: 600e316e126300745a6b70d98f942288,
+        type: 2}
+      propertyPath: soundManager
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 600e316e126300745a6b70d98f942288, type: 2}
@@ -970,7 +989,7 @@ MonoBehaviour:
   speed: 0
   stickMode: 0
   initialDir: {x: 0, y: 1}
-  collideWithPlayer: {fileID: 1764980728}
+  soundManager: {fileID: 0}
 --- !u!61 &1764980726
 BoxCollider2D:
   m_ObjectHideFlags: 0

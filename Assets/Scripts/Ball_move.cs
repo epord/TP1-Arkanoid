@@ -13,12 +13,13 @@ public class Ball_move : MonoBehaviour {
     private bool sticked;
     private Vector2 oldDir;
     public Vector2 initialDir = Vector2.up;
-    public AudioSource collideWithPlayer;
+    private SoundManager soundManager;
 
     void Start () {
         speed = initialSpeed;
         GetComponent<Rigidbody2D>().velocity = initialDir * speed;
         player = GameObject.Find("player");
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -36,7 +37,7 @@ public class Ball_move : MonoBehaviour {
                 oldDir = newDir;
             }
             GetComponent<Rigidbody2D>().velocity = newDir * speed;
-            collideWithPlayer.Play();
+            soundManager.PlayCollisionPlayerBall();
         }   
         
     }
