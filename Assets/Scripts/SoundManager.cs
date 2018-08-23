@@ -45,7 +45,9 @@ public class SoundManager : MonoBehaviour {
 
     public void PlayTitleScreen()
     {
-        audioSource.PlayOneShot(titleScreen);
+        audioSource.loop = true;
+        audioSource.clip = titleScreen;
+        audioSource.Play();
     }
 
     public void PlayGameOver()
