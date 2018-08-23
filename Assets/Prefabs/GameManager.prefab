@@ -57,3 +57,4 @@ MonoBehaviour:
     type: 2}
   soundManager: {fileID: 114471395250286492, guid: 713515acc0e76e44a8b0e2393e6be06c,
     type: 2}
+  player: {fileID: 1467145230330480, guid: a96fb2f82ba782546ba9f24cc3e0fc5a, type: 2}
