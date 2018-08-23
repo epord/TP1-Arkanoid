@@ -7,12 +7,12 @@ public class GameManager : MonoBehaviour {
     public GameObject gameOverSprite;
     public GameObject continueSprite;
     public SoundManager soundManager;
+    public GameObject player;
 
     private bool isGameOver = false;
     private float flickeringTime = 0.3f;
     private float timer = 0.0f;
     private const float EPSILON = 0.001f;
-
 
     void Start()
     {
@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
             timer = Mathf.Min(timer + Time.deltaTime, 0.3f);
-            if (timer < 0.2f) {
+            if (timer - 0.3f < EPSILON) {
                 timer = 0.0f;
                 continueSprite.GetComponent<Renderer>().enabled = !continueSprite.GetComponent<Renderer>().enabled;
             }
@@ -42,8 +42,9 @@ public class GameManager : MonoBehaviour {
             // GAME OVER
             gameOverSprite.GetComponent<Renderer>().enabled = true;
             continueSprite.GetComponent<Renderer>().enabled = true;
-            Time.timeScale = 0;
+            //Time.timeScale = 0;
             isGameOver = true;
+            player.GetComponent<Animator>().SetBool("Alive", false);
         }
 		if (GameObject.FindGameObjectsWithTag("Brick").Length == 0)
 		{
