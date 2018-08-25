@@ -9,12 +9,12 @@ public class GameManager : MonoBehaviour {
     public SoundManager soundManager;
     public GameObject player;
 
-    private bool isPlaying;
+    public bool isPlaying;
     private bool isGameOver = false;
     private float flickeringTime = 0.3f;
     private float timer = 0.0f;
     private const float EPSILON = 0.001f;
-    private string playingScene = "Graphic_test_scene";
+    private string playingScene = "Level1";
     private string menuScene = "MenuScene";
 
     void Start()

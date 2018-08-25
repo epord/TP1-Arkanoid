@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MaxLengthPowerUp : MonoBehaviour {
+public class MaxLengthPowerUp : MonoBehaviour, PowerUp {
 
     private GameObject player;
     private bool active;
     public float timer = 10;
     private SoundManager soundManager;
+    private PowerUpManager powerUpManager;
 
 	// Use this for initialization
 	void Start () {
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
+	    powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
     }
 	
 	// Update is called once per frame
@@ -22,9 +24,7 @@ public class MaxLengthPowerUp : MonoBehaviour {
             timer = Mathf.Max(timer - Time.deltaTime, 0);
             if (timer == 0)
             {
-                player.GetComponent<mover>().unSetLongMode();
-
-                Destroy(gameObject);
+                powerUpManager.ReleasePowerUp();
             }
         }
 	}
@@ -33,12 +33,25 @@ public class MaxLengthPowerUp : MonoBehaviour {
     {
         if (collisionInfo.gameObject.name == "player")
         {
-            var falling = GetComponent<FallingPowerUp>();
-            Destroy(falling);
-            active = true;
-            player.GetComponent<mover>().setLongMode();
-            this.transform.position = new Vector2(-10000, 0);
-            soundManager.PlayPowerUp();
+            SetPowerUp();
         }
     }
+
+    public void SetPowerUp()
+    {
+        player.GetComponent<mover>().setLongMode();
+        powerUpManager.SetPowerUp(this);
+        var falling = GetComponent<FallingPowerUp>();
+        Destroy(falling);
+        active = true;
+        this.transform.position = new Vector2(-10000, 0);
+        soundManager.PlayPowerUp();
+    }
+
+    public void UnsetPowerUp()
+    {
+        player.GetComponent<mover>().unSetLongMode();
+        Destroy(gameObject);
+    }
+
 }
