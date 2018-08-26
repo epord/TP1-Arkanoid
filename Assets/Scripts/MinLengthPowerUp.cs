@@ -43,17 +43,17 @@ public class MinLengthPowerUp : MonoBehaviour, PowerUp
     public void SetPowerUp()
     {
         powerUpManager.SetPowerUp(this);
-        player.GetComponent<mover>().unSetLongMode();
-        this.transform.position = new Vector2(-10000, 0);
+        player.GetComponent<mover>().SetShortMode();
         var falling = GetComponent<FallingPowerUp>();
         Destroy(falling);
         active = true;
+        this.transform.position = new Vector2(-10000, 0);
         soundManager.PlayPowerUp();
     }
 
     public void UnsetPowerUp()
     {
-        player.GetComponent<mover>().setLongMode();
+        player.GetComponent<mover>().UnsetShortMode();
         Destroy(gameObject);
     }
 }

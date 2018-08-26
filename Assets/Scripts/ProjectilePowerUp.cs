@@ -53,6 +53,7 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
     {
         powerUpManager.SetPowerUp(this);
         active = true;
+        player.GetComponent<Animator>().SetBool("Projectile", true);
         this.transform.position = new Vector2(-10000, 0);
         var falling = GetComponent<FallingPowerUp>();
         Destroy(falling);
@@ -61,6 +62,7 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
 
     public void UnsetPowerUp()
     {
+        player.GetComponent<Animator>().SetBool("Projectile", false);
         Destroy(gameObject);
     }
 }

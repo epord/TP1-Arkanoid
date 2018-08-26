@@ -6,38 +6,13 @@ using UnityEngine.UI;
 public class mover : MonoBehaviour {
 
     public float speed = 150;
-    public bool longMode;
-    public bool shortMode;
-    private Image m_Image;
-    private BoxCollider2D m_BoxCollider2D;
-    private Transform m_Transform;
-    public Sprite normalSprite;
-    public Sprite longSprite;
-    public Sprite shortSprite;
-    private float const_modifyLength = 0.5f;
 
+    // Very hacky trick to update the boxcollider size one frame after the animation has changed
+    private int nextFrameReset;
+    
     // Use this for initialization
     void Start () {
-        m_Image = GetComponent<Image>();
-        m_Transform = GetComponent<Transform>();
-        m_BoxCollider2D = GetComponent<BoxCollider2D>();
 	}
-
-    //// Update is called once per frame
-    //void Update () {
-    //       if (Input.GetKey(KeyCode.LeftArrow))
-    //       {
-    //           Vector3 position = this.transform.position;
-    //           position.x--;
-    //           this.transform.position = position;
-    //       }
-    //       if (Input.GetKey(KeyCode.RightArrow))
-    //       {
-    //           Vector3 position = this.transform.position;
-    //           position.x++;
-    //           this.transform.position = position;
-    //       }
-    //   }
 
     private void Update()
     {
@@ -46,38 +21,46 @@ public class mover : MonoBehaviour {
         GetComponent<Rigidbody2D>().velocity = Vector2.right * h * speed;
     }
 
-    public void setLongMode()
+    void LateUpdate()
     {
-        longMode = true;
-        //Update image and size of both transform and Boxcollider
-        var scale = this.transform.localScale;
-        scale.x += 0.5f;
-        this.transform.localScale = scale;
-
-        //m_Image.sprite = longSprite;
-        //var temp = m_Transform.localScale;
-        //temp.x += const_modifyLength;
-        //m_Transform.localScale = temp;
-        //temp = m_BoxCollider2D.size;
-        //temp.x += const_modifyLength;
-        //m_BoxCollider2D.size = temp;
+        if (nextFrameReset == 1)
+        {
+            ResetSize();
+        }
+        if (nextFrameReset > 0)
+        {
+            nextFrameReset--;
+        }
     }
 
-    public void unSetLongMode()
+    public void SetLongMode()
     {
-        longMode = false;
-        //Update image and size of both transform and Boxcollider
-        //m_Image.sprite = shortSprite;
-        var scale = this.transform.localScale;
-        scale.x /= 1.5f;
-        this.transform.localScale = scale;
-
-
-        //var temp = m_Transform.localScale;
-        //temp.x -= const_modifyLength;
-        //m_Transform.localScale = temp;
-        //temp = m_BoxCollider2D.size;
-        //temp.x -= const_modifyLength;
-        //m_BoxCollider2D.size = temp;
+        GetComponent<Animator>().SetBool("Long", true);
+        nextFrameReset = 2;
     }
+
+    public void UnsetLongMode()
+    {
+        GetComponent<Animator>().SetBool("Long", false);
+        nextFrameReset = 2;
+    }
+
+    private void ResetSize()
+    {
+        var newSize = GetComponent<SpriteRenderer>().bounds.size;
+        GetComponent<BoxCollider2D>().size = newSize;
+    }
+
+    public void SetShortMode()
+    {
+        GetComponent<Animator>().SetBool("Short", true);
+        nextFrameReset = 2;
+    }
+
+    public void UnsetShortMode()
+    {
+        GetComponent<Animator>().SetBool("Short", false);
+        nextFrameReset = 2;
+    }
+
 }

@@ -1,10 +1,8 @@
 fileFormatVersion: 2
-guid: 93950f9cd7e8347288f691858e973ebc
-labels:
-- Road
+guid: 96ebafb5276fa4c438b73b3a92e9c658
 NativeFormatImporter:
   externalObjects: {}
-  mainObjectFileID: 9100000
+  mainObjectFileID: 7400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

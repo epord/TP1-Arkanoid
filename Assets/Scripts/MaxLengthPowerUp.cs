@@ -39,8 +39,8 @@ public class MaxLengthPowerUp : MonoBehaviour, PowerUp {
 
     public void SetPowerUp()
     {
-        player.GetComponent<mover>().setLongMode();
         powerUpManager.SetPowerUp(this);
+        player.GetComponent<mover>().SetLongMode();
         var falling = GetComponent<FallingPowerUp>();
         Destroy(falling);
         active = true;
@@ -50,7 +50,7 @@ public class MaxLengthPowerUp : MonoBehaviour, PowerUp {
 
     public void UnsetPowerUp()
     {
-        player.GetComponent<mover>().unSetLongMode();
+        player.GetComponent<mover>().UnsetLongMode();
         Destroy(gameObject);
     }
 

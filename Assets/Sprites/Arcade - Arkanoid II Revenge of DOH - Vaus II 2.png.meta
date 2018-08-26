@@ -1,0 +1,4071 @@
+fileFormatVersion: 2
+guid: 9289879ebcf62b24a94a94ba225f61b1
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Arcade - Arkanoid II Revenge of DOH - Vaus II_0
+    21300002: Arcade - Arkanoid II Revenge of DOH - Vaus II_1
+    21300004: Arcade - Arkanoid II Revenge of DOH - Vaus II_2
+    21300006: Arcade - Arkanoid II Revenge of DOH - Vaus II_3
+    21300008: Arcade - Arkanoid II Revenge of DOH - Vaus II_4
+    21300010: Arcade - Arkanoid II Revenge of DOH - Vaus II_5
+    21300012: Arcade - Arkanoid II Revenge of DOH - Vaus II_6
+    21300014: Arcade - Arkanoid II Revenge of DOH - Vaus II_7
+    21300016: Arcade - Arkanoid II Revenge of DOH - Vaus II_8
+    21300018: Arcade - Arkanoid II Revenge of DOH - Vaus II_9
+    21300020: Arcade - Arkanoid II Revenge of DOH - Vaus II_10
+    21300022: Arcade - Arkanoid II Revenge of DOH - Vaus II_11
+    21300024: Arcade - Arkanoid II Revenge of DOH - Vaus II_12
+    21300026: Arcade - Arkanoid II Revenge of DOH - Vaus II_13
+    21300028: Arcade - Arkanoid II Revenge of DOH - Vaus II_14
+    21300030: Arcade - Arkanoid II Revenge of DOH - Vaus II_15
+    21300032: Arcade - Arkanoid II Revenge of DOH - Vaus II_16
+    21300034: Arcade - Arkanoid II Revenge of DOH - Vaus II_17
+    21300036: Arcade - Arkanoid II Revenge of DOH - Vaus II_18
+    21300038: Arcade - Arkanoid II Revenge of DOH - Vaus II_19
+    21300040: Arcade - Arkanoid II Revenge of DOH - Vaus II_20
+    21300042: Arcade - Arkanoid II Revenge of DOH - Vaus II_21
+    21300044: Arcade - Arkanoid II Revenge of DOH - Vaus II_22
+    21300046: Arcade - Arkanoid II Revenge of DOH - Vaus II_23
+    21300048: Arcade - Arkanoid II Revenge of DOH - Vaus II_24
+    21300050: Arcade - Arkanoid II Revenge of DOH - Vaus II_25
+    21300052: Arcade - Arkanoid II Revenge of DOH - Vaus II_26
+    21300054: Arcade - Arkanoid II Revenge of DOH - Vaus II_27
+    21300056: Arcade - Arkanoid II Revenge of DOH - Vaus II_28
+    21300058: Arcade - Arkanoid II Revenge of DOH - Vaus II_29
+    21300060: Arcade - Arkanoid II Revenge of DOH - Vaus II_30
+    21300062: Arcade - Arkanoid II Revenge of DOH - Vaus II_31
+    21300064: Arcade - Arkanoid II Revenge of DOH - Vaus II_32
+    21300066: Arcade - Arkanoid II Revenge of DOH - Vaus II_33
+    21300068: Arcade - Arkanoid II Revenge of DOH - Vaus II_34
+    21300070: Arcade - Arkanoid II Revenge of DOH - Vaus II_35
+    21300072: Arcade - Arkanoid II Revenge of DOH - Vaus II_36
+    21300074: Arcade - Arkanoid II Revenge of DOH - Vaus II_37
+    21300076: Arcade - Arkanoid II Revenge of DOH - Vaus II_38
+    21300078: Arcade - Arkanoid II Revenge of DOH - Vaus II_39
+    21300080: Arcade - Arkanoid II Revenge of DOH - Vaus II_40
+    21300082: Arcade - Arkanoid II Revenge of DOH - Vaus II_41
+    21300084: Arcade - Arkanoid II Revenge of DOH - Vaus II_42
+    21300086: Arcade - Arkanoid II Revenge of DOH - Vaus II_43
+    21300088: Arcade - Arkanoid II Revenge of DOH - Vaus II_44
+    21300090: Arcade - Arkanoid II Revenge of DOH - Vaus II_45
+    21300092: Arcade - Arkanoid II Revenge of DOH - Vaus II_46
+    21300094: Arcade - Arkanoid II Revenge of DOH - Vaus II_47
+    21300096: Arcade - Arkanoid II Revenge of DOH - Vaus II_48
+    21300098: Arcade - Arkanoid II Revenge of DOH - Vaus II_49
+    21300100: Arcade - Arkanoid II Revenge of DOH - Vaus II_50
+    21300102: Arcade - Arkanoid II Revenge of DOH - Vaus II_51
+    21300104: Arcade - Arkanoid II Revenge of DOH - Vaus II_52
+    21300106: Arcade - Arkanoid II Revenge of DOH - Vaus II_53
+    21300108: Arcade - Arkanoid II Revenge of DOH - Vaus II_54
+    21300110: Arcade - Arkanoid II Revenge of DOH - Vaus II_55
+    21300112: Arcade - Arkanoid II Revenge of DOH - Vaus II_56
+    21300114: Arcade - Arkanoid II Revenge of DOH - Vaus II_57
+    21300116: Arcade - Arkanoid II Revenge of DOH - Vaus II_58
+    21300118: Arcade - Arkanoid II Revenge of DOH - Vaus II_59
+    21300120: Arcade - Arkanoid II Revenge of DOH - Vaus II_60
+    21300122: Arcade - Arkanoid II Revenge of DOH - Vaus II_61
+    21300124: Arcade - Arkanoid II Revenge of DOH - Vaus II_62
+    21300126: Arcade - Arkanoid II Revenge of DOH - Vaus II_63
+    21300128: Arcade - Arkanoid II Revenge of DOH - Vaus II_64
+    21300130: Arcade - Arkanoid II Revenge of DOH - Vaus II_65
+    21300132: Arcade - Arkanoid II Revenge of DOH - Vaus II_66
+    21300134: Arcade - Arkanoid II Revenge of DOH - Vaus II_67
+    21300136: Arcade - Arkanoid II Revenge of DOH - Vaus II_68
+    21300138: Arcade - Arkanoid II Revenge of DOH - Vaus II_69
+    21300140: Arcade - Arkanoid II Revenge of DOH - Vaus II_70
+    21300142: Arcade - Arkanoid II Revenge of DOH - Vaus II_71
+    21300144: Arcade - Arkanoid II Revenge of DOH - Vaus II_72
+    21300146: Arcade - Arkanoid II Revenge of DOH - Vaus II_73
+    21300148: Arcade - Arkanoid II Revenge of DOH - Vaus II_74
+    21300150: Arcade - Arkanoid II Revenge of DOH - Vaus II_75
+    21300152: Arcade - Arkanoid II Revenge of DOH - Vaus II_76
+    21300154: Arcade - Arkanoid II Revenge of DOH - Vaus II_77
+    21300156: Arcade - Arkanoid II Revenge of DOH - Vaus II_78
+    21300158: Arcade - Arkanoid II Revenge of DOH - Vaus II_79
+    21300160: Arcade - Arkanoid II Revenge of DOH - Vaus II_80
+    21300162: Arcade - Arkanoid II Revenge of DOH - Vaus II_81
+    21300164: Arcade - Arkanoid II Revenge of DOH - Vaus II_82
+    21300166: Arcade - Arkanoid II Revenge of DOH - Vaus II_83
+    21300168: Arcade - Arkanoid II Revenge of DOH - Vaus II_84
+    21300170: Arcade - Arkanoid II Revenge of DOH - Vaus II_85
+    21300172: Arcade - Arkanoid II Revenge of DOH - Vaus II_86
+    21300174: Arcade - Arkanoid II Revenge of DOH - Vaus II_87
+    21300176: Arcade - Arkanoid II Revenge of DOH - Vaus II_88
+    21300178: Arcade - Arkanoid II Revenge of DOH - Vaus II_89
+    21300180: Arcade - Arkanoid II Revenge of DOH - Vaus II_90
+    21300182: Arcade - Arkanoid II Revenge of DOH - Vaus II_91
+    21300184: Arcade - Arkanoid II Revenge of DOH - Vaus II_92
+    21300186: Arcade - Arkanoid II Revenge of DOH - Vaus II_93
+    21300188: Arcade - Arkanoid II Revenge of DOH - Vaus II_94
+    21300190: Arcade - Arkanoid II Revenge of DOH - Vaus II_95
+    21300192: Arcade - Arkanoid II Revenge of DOH - Vaus II_96
+    21300194: Arcade - Arkanoid II Revenge of DOH - Vaus II_97
+    21300196: Arcade - Arkanoid II Revenge of DOH - Vaus II_98
+    21300198: Arcade - Arkanoid II Revenge of DOH - Vaus II_99
+    21300200: Arcade - Arkanoid II Revenge of DOH - Vaus II_100
+    21300202: Arcade - Arkanoid II Revenge of DOH - Vaus II_101
+    21300204: Arcade - Arkanoid II Revenge of DOH - Vaus II_102
+    21300206: Arcade - Arkanoid II Revenge of DOH - Vaus II_103
+    21300208: Arcade - Arkanoid II Revenge of DOH - Vaus II_104
+    21300210: Arcade - Arkanoid II Revenge of DOH - Vaus II_105
+    21300212: Arcade - Arkanoid II Revenge of DOH - Vaus II_106
+    21300214: Arcade - Arkanoid II Revenge of DOH - Vaus II_107
+    21300216: Arcade - Arkanoid II Revenge of DOH - Vaus II_108
+    21300218: Arcade - Arkanoid II Revenge of DOH - Vaus II_109
+    21300220: Arcade - Arkanoid II Revenge of DOH - Vaus II_110
+    21300222: Arcade - Arkanoid II Revenge of DOH - Vaus II_111
+    21300224: Arcade - Arkanoid II Revenge of DOH - Vaus II_112
+    21300226: Arcade - Arkanoid II Revenge of DOH - Vaus II_113
+    21300228: Arcade - Arkanoid II Revenge of DOH - Vaus II_114
+    21300230: Arcade - Arkanoid II Revenge of DOH - Vaus II_115
+    21300232: Arcade - Arkanoid II Revenge of DOH - Vaus II_116
+    21300234: Arcade - Arkanoid II Revenge of DOH - Vaus II_117
+    21300236: Arcade - Arkanoid II Revenge of DOH - Vaus II_118
+    21300238: Arcade - Arkanoid II Revenge of DOH - Vaus II_119
+    21300240: Arcade - Arkanoid II Revenge of DOH - Vaus II_120
+    21300242: Arcade - Arkanoid II Revenge of DOH - Vaus II_121
+    21300244: Arcade - Arkanoid II Revenge of DOH - Vaus II_122
+    21300246: Arcade - Arkanoid II Revenge of DOH - Vaus II_123
+    21300248: Arcade - Arkanoid II Revenge of DOH - Vaus II_124
+    21300250: Arcade - Arkanoid II Revenge of DOH - Vaus II_125
+    21300252: Arcade - Arkanoid II Revenge of DOH - Vaus II_126
+    21300254: Arcade - Arkanoid II Revenge of DOH - Vaus II_127
+    21300256: Arcade - Arkanoid II Revenge of DOH - Vaus II_128
+    21300258: Arcade - Arkanoid II Revenge of DOH - Vaus II_129
+    21300260: Arcade - Arkanoid II Revenge of DOH - Vaus II_130
+    21300262: Arcade - Arkanoid II Revenge of DOH - Vaus II_131
+    21300264: Arcade - Arkanoid II Revenge of DOH - Vaus II_132
+    21300266: Arcade - Arkanoid II Revenge of DOH - Vaus II_133
+    21300268: Arcade - Arkanoid II Revenge of DOH - Vaus II_134
+    21300270: Arcade - Arkanoid II Revenge of DOH - Vaus II_135
+    21300272: Arcade - Arkanoid II Revenge of DOH - Vaus II_136
+    21300274: Arcade - Arkanoid II Revenge of DOH - Vaus II_137
+    21300276: Arcade - Arkanoid II Revenge of DOH - Vaus II_138
+    21300278: Arcade - Arkanoid II Revenge of DOH - Vaus II_139
+    21300280: Arcade - Arkanoid II Revenge of DOH - Vaus II_140
+    21300282: Arcade - Arkanoid II Revenge of DOH - Vaus II_141
+    21300284: Arcade - Arkanoid II Revenge of DOH - Vaus II_142
+    21300286: Arcade - Arkanoid II Revenge of DOH - Vaus II_143
+    21300288: Arcade - Arkanoid II Revenge of DOH - Vaus II_144
+    21300290: Arcade - Arkanoid II Revenge of DOH - Vaus II_145
+    21300292: Arcade - Arkanoid II Revenge of DOH - Vaus II_146
+    21300294: Arcade - Arkanoid II Revenge of DOH - Vaus II_147
+    21300296: Arcade - Arkanoid II Revenge of DOH - Vaus II_148
+    21300298: Arcade - Arkanoid II Revenge of DOH - Vaus II_149
+    21300300: Arcade - Arkanoid II Revenge of DOH - Vaus II_150
+    21300302: Arcade - Arkanoid II Revenge of DOH - Vaus II_151
+    21300304: Arcade - Arkanoid II Revenge of DOH - Vaus II_152
+    21300306: Arcade - Arkanoid II Revenge of DOH - Vaus II_153
+    21300308: Arcade - Arkanoid II Revenge of DOH - Vaus II_154
+    21300310: Arcade - Arkanoid II Revenge of DOH - Vaus II_155
+    21300312: Arcade - Arkanoid II Revenge of DOH - Vaus II_156
+    21300314: Arcade - Arkanoid II Revenge of DOH - Vaus II_157
+    21300316: Arcade - Arkanoid II Revenge of DOH - Vaus II_158
+    21300318: Arcade - Arkanoid II Revenge of DOH - Vaus II_159
+    21300320: Arcade - Arkanoid II Revenge of DOH - Vaus II_160
+    21300322: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_0
+    21300324: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_1
+    21300326: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_2
+    21300328: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_3
+    21300330: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_4
+    21300332: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_5
+    21300334: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_6
+    21300336: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_7
+    21300338: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_8
+    21300340: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_9
+    21300342: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_10
+    21300344: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_11
+    21300346: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_12
+    21300348: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_13
+    21300350: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_14
+    21300352: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_15
+    21300354: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_16
+    21300356: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_17
+    21300358: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_18
+    21300360: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_19
+    21300362: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_20
+    21300364: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_21
+    21300366: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_22
+    21300368: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_23
+    21300370: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_24
+    21300372: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_25
+    21300374: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_26
+    21300376: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_27
+    21300378: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_28
+    21300380: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_29
+    21300382: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_30
+    21300384: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_31
+    21300386: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_32
+    21300388: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_33
+    21300390: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_34
+    21300392: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_35
+    21300394: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_36
+    21300396: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_37
+    21300398: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_38
+    21300400: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_39
+    21300402: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_40
+    21300404: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_41
+    21300406: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_42
+    21300408: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_43
+    21300410: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_44
+    21300412: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_45
+    21300414: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_46
+    21300416: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_47
+    21300418: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_48
+    21300420: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_49
+    21300422: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_50
+    21300424: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_51
+    21300426: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_52
+    21300428: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_53
+    21300430: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_54
+    21300432: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_55
+    21300434: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_56
+    21300436: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_57
+    21300438: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_58
+    21300440: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_59
+    21300442: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_60
+    21300444: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_61
+    21300446: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_62
+    21300448: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_63
+    21300450: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_64
+    21300452: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_65
+    21300454: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_66
+    21300456: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_67
+    21300458: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_68
+    21300460: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_69
+    21300462: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_70
+    21300464: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_71
+    21300466: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_72
+    21300468: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_73
+    21300470: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_74
+    21300472: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_75
+    21300474: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_76
+    21300476: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_77
+    21300478: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_78
+    21300480: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_79
+    21300482: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_80
+    21300484: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_81
+    21300486: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_82
+    21300488: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_83
+    21300490: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_84
+    21300492: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_85
+    21300494: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_86
+    21300496: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_87
+    21300498: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_88
+    21300500: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_89
+    21300502: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_90
+    21300504: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_91
+    21300506: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_92
+    21300508: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_93
+    21300510: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_94
+    21300512: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_95
+    21300514: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_96
+    21300516: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_97
+    21300518: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_98
+    21300520: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_99
+    21300522: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_100
+    21300524: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_101
+    21300526: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_102
+    21300528: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_103
+    21300530: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_104
+    21300532: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_105
+    21300534: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_106
+    21300536: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_107
+    21300538: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_108
+    21300540: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_109
+    21300542: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_110
+    21300544: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_111
+    21300546: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_112
+    21300548: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_113
+    21300550: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_114
+    21300552: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_115
+    21300554: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_116
+    21300556: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_117
+    21300558: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_118
+    21300560: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_119
+    21300562: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_120
+    21300564: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_121
+    21300566: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_122
+    21300568: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_123
+    21300570: Arcade - Arkanoid II Revenge of DOH - Vaus II 1_124
+    21300572: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_0
+    21300574: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_1
+    21300576: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_2
+    21300578: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_3
+    21300580: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_4
+    21300582: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_5
+    21300584: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_6
+    21300586: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_7
+    21300588: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_8
+    21300590: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_9
+    21300592: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_10
+    21300594: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_11
+    21300596: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_12
+    21300598: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_13
+    21300600: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_14
+    21300602: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_15
+    21300604: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_16
+    21300606: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_17
+    21300608: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_18
+    21300610: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_19
+    21300612: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_20
+    21300614: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_21
+    21300616: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_22
+    21300618: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_23
+    21300620: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_24
+    21300622: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_25
+    21300624: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_26
+    21300626: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_27
+    21300628: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_28
+    21300630: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_29
+    21300632: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_30
+    21300634: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_31
+    21300636: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_32
+    21300638: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_33
+    21300640: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_34
+    21300642: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_35
+    21300644: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_36
+    21300646: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_37
+    21300648: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_38
+    21300650: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_39
+    21300652: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_40
+    21300654: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_41
+    21300656: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_42
+    21300658: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_43
+    21300660: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_44
+    21300662: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_45
+    21300664: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_46
+    21300666: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_47
+    21300668: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_48
+    21300670: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_49
+    21300672: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_50
+    21300674: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_51
+    21300676: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_52
+    21300678: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_53
+    21300680: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_54
+    21300682: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_55
+    21300684: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_56
+    21300686: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_57
+    21300688: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_58
+    21300690: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_59
+    21300692: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_60
+    21300694: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_61
+    21300696: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_62
+    21300698: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_63
+    21300700: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_64
+    21300702: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_65
+    21300704: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_66
+    21300706: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_67
+    21300708: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_68
+    21300710: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_69
+    21300712: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_70
+    21300714: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_71
+    21300716: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_72
+    21300718: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_73
+    21300720: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_74
+    21300722: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_75
+    21300724: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_76
+    21300726: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_77
+    21300728: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_78
+    21300730: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_79
+    21300732: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_80
+    21300734: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_81
+    21300736: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_82
+    21300738: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_83
+    21300740: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_84
+    21300742: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_85
+    21300744: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_86
+    21300746: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_87
+    21300748: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_88
+    21300750: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_89
+    21300752: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_90
+    21300754: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_91
+    21300756: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_92
+    21300758: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_93
+    21300760: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_94
+    21300762: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_95
+    21300764: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_96
+    21300766: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_97
+    21300768: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_98
+    21300770: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_99
+    21300772: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_100
+    21300774: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_101
+    21300776: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_102
+    21300778: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_103
+    21300780: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_104
+    21300782: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_105
+    21300784: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_106
+    21300786: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_107
+    21300788: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_108
+    21300790: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_109
+    21300792: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_110
+    21300794: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_111
+    21300796: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_112
+    21300798: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_113
+    21300800: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_114
+    21300802: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_115
+    21300804: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_116
+    21300806: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_117
+    21300808: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_118
+    21300810: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_119
+    21300812: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_120
+    21300814: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_121
+    21300816: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_122
+    21300818: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_123
+    21300820: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_124
+    21300822: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_125
+    21300824: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_126
+    21300826: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_127
+    21300828: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_128
+    21300830: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_129
+    21300832: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_130
+    21300834: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_131
+    21300836: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_132
+    21300838: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_133
+    21300840: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_134
+    21300842: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_135
+    21300844: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_136
+    21300846: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_137
+    21300848: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_138
+    21300850: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_139
+    21300852: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_140
+    21300854: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_141
+    21300856: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_142
+    21300858: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_143
+    21300860: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_144
+    21300862: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_145
+    21300864: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_146
+    21300866: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_147
+    21300868: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_148
+    21300870: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_149
+    21300872: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_150
+    21300874: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_151
+    21300876: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_152
+    21300878: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_153
+    21300880: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_154
+    21300882: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_155
+    21300884: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_156
+    21300886: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_157
+    21300888: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_158
+    21300890: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_159
+    21300892: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_160
+    21300894: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_161
+    21300896: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_162
+    21300898: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_163
+    21300900: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_164
+    21300902: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_165
+    21300904: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_166
+    21300906: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_167
+    21300908: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_168
+    21300910: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_169
+    21300912: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_170
+    21300914: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_171
+    21300916: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_172
+    21300918: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_173
+    21300920: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_174
+    21300922: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_175
+    21300924: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_176
+    21300926: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_177
+    21300928: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_178
+    21300930: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_179
+    21300932: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_180
+    21300934: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_181
+    21300936: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_182
+    21300938: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_183
+    21300940: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_184
+    21300942: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_185
+    21300944: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_186
+    21300946: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_187
+    21300948: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_188
+    21300950: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_189
+    21300952: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_190
+    21300954: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_191
+    21300956: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_192
+    21300958: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_193
+    21300960: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_194
+    21300962: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_195
+    21300964: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_196
+    21300966: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_197
+    21300968: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_198
+    21300970: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_199
+    21300972: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_200
+    21300974: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_201
+    21300976: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_202
+    21300978: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_203
+    21300980: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_204
+    21300982: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_205
+    21300984: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_206
+    21300986: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_207
+    21300988: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_208
+    21300990: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_209
+    21300992: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_210
+    21300994: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_211
+    21300996: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_212
+    21300998: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_213
+    21301000: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_214
+    21301002: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_215
+    21301004: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_216
+    21301006: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_217
+    21301008: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_218
+    21301010: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_219
+    21301012: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_220
+    21301014: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_221
+    21301016: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_222
+    21301018: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_223
+    21301020: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_224
+    21301022: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_225
+    21301024: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_226
+    21301026: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_227
+    21301028: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_228
+    21301030: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_229
+    21301032: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_230
+    21301034: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_231
+    21301036: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_232
+    21301038: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_233
+    21301040: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_234
+    21301042: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_235
+    21301044: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_236
+    21301046: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_237
+    21301048: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_238
+    21301050: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_239
+    21301052: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_240
+    21301054: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_241
+    21301056: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_242
+    21301058: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_243
+    21301060: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_244
+    21301062: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_245
+    21301064: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_246
+    21301066: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_247
+    21301068: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_248
+    21301070: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_249
+    21301072: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_250
+    21301074: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_251
+    21301076: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_252
+    21301078: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_253
+    21301080: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_254
+    21301082: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_255
+    21301084: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_256
+    21301086: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_257
+    21301088: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_258
+    21301090: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_259
+    21301092: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_260
+    21301094: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_261
+    21301096: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_262
+    21301098: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_263
+    21301100: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_264
+    21301102: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_265
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 208
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a546fe4b1eeb24a93d7944f4445562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_1
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 208
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfd55d3c6ad36a42abc63fc1e86c5d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 208
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50ee57d6104cf745a30cc9fb919bdcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 208
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28183f4b9f5da0a4c82bcefeccba2ac2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_4
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 200
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81da4587f7e0dcd429a2c65dde699238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 200
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921fc588db969164b9c2c1cb28de9ed7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 200
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81670164df44b2459510ba2602dc6b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_7
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 200
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f620e7d0ba0625f45be7bb06d0a76116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11ffb1feb19e434b99fb82a69c95c12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 200
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeff06ee0bf3a474aa61ee0421626016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 192
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4617987ae7866674da9793852957832d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 192
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb5fabb4614fe84d8c3db1533e808ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 192
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5995d7895668442b72a19d3581bbaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_13
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 192
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18197f4fee6969d438b37dafae9cd98f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d80e6f1ad57234fb7b8f9e49d90de5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 192
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152be21a94db92740ac8a540ba8e9a2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_16
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 184
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15a28834c5710b4e8a7907b366d946a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 184
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffd30a69721b5347b9fc7954f7a8f6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 184
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5bebfdbf5b3474ca3793ca57d30067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 184
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe3abdfc2ffe804aa1e56cc1f04be13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 184
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ca6034793131043b0af1ea8a657d7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 184
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f950322ac8e6a0740ae929d669322a44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_22
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 176
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ab1e4d03de7a4ebeaf9f60a3b7429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_23
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 176
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa89619df616af44399319ac55acf133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 176
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d635d7467dafff4baa98e1dc0d3f479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_25
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 176
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fe20310d4cbf143aa1e0a32254ed2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae26b32270871845bbbd9defbaebbe7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_27
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 176
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6161bd4235c717e41a1267d1749b2f72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_28
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 168
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e279b153d69a4e90073c5624a75b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 168
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210605440e8edf640ab35f9498dc53b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_30
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 168
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7626c02801e84c74e9c3dfec6ca20eba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_31
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 168
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b2172c0133afe4b87a52d8eb3667b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_32
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 160
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a53cef7d53a484a976cfc6b6fee9b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_33
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 160
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b90f96f9b816d4094abde3d52e445c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_34
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 160
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bdf64bfa0acbe4ab3d178c5859f5ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_35
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908f9e98a3366c748ba027b6f3b53cd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 152
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec745af25f0f1c44d8c6949e79484c5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_37
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 152
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d28b73f8377744a83afc25570d66a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_38
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 152
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ab3329c072a62479852463bf31487b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 152
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9b76fd793d4e943b3fea2cb9db37bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 152
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c931d4a35edcb44921f53192343434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_41
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 144
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde2a03c145ae5841a68c42963049b86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_42
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 144
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c78aa747fc1b041b91bf7ffe3dbce9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_43
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 144
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8742bd90aeff1c2449162d03f7f682f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_44
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 144
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170b4882a698b034cb5b1a6dd70352e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e477bff0b8d03bd4c8f7838a4149e34b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_46
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 136
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae80cf0aec57224d86a171d187b057f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_47
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 136
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26935eeb809031c41af6684d1763596d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_48
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 136
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5f94164964748449a34cbb23702052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_49
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 136
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3779ab65f2ee204898dbbb6defc4768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 136
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce425d8aa23e8c48b4a08cc8f88e9bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_51
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 128
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14c0a0447d6bb446a306b1f4277a722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_52
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 128
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72aa0d7ed69a85408c2337099cb1f4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_53
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 128
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775c0fc146df235408a455a5c6a4d3f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_54
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 128
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d05dfc9238c8045990fe6ec3d7fb14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a247cc120f6c44b829a26ac4776234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30b06af1ef67e64bbddfcef16e3ffe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_57
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9894ac52975aeae43bbdf8faaecafb17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_58
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4928c452bfba93344b6ba51661bc214e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_59
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7416cc6aa346dfc498e0b0d55096d7b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae78f7936793e40b7944ba7bf35475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_61
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b88d65abf2d9f49a461d59311a773a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_62
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b069e88d58f57464fa978dec9fb4de84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_63
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 120
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd0fa939d8bd6045a05a569198e6646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_64
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a04c83dae1d7f47847a6dbcad7fd4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_65
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ae31805d058cc459206bcd59e58337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_66
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedc0b56081579946954e33976659363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_67
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b49148e80213642bb4d173cad3fdeb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a37444487c7f440944de266f09e718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_69
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c62f614df2aef4ca4b7d79ad78b155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_70
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81821423ced17784486fb53d11be3691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_71
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9ec40ad63cf734db2af120b48e8dd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_72
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ad0c5b097ee414a954717f67d94a19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_73
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 112
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78405dcd0aeaba746bc6b5b7dc863226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_74
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf0b2ec5362fe64f993491012117081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_75
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8589bfa5462b93469e3b3210d328633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_76
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2657f01f640c9f647aff380854d136bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_77
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5cf4fb8d000994a9c7aa1b1a2bce75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6922b91ce27348345a7de5e993ff4885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_79
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf9b2cde06a72949a0aed7abc70e6e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_80
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8ced10200614542ae9c654f8600af3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_81
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceacbddd9d80835499e6669464c94c5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_82
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef15577e1902b54783d7c79edbf5e61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_83
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 104
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8036e1fa8801ec945b9ee50f6164b5dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_84
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 96
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295f503a3700dd341a5755fe29c57d43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_85
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 96
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df731acfde5512942b2cc0f607a563cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_86
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 96
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3013b12ff0303df43af767478247c2e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_87
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 96
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877babc42f31f3549990a23abee64aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692d77a6ec7a8c849b8d63fbb773c623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_89
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 96
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2902f85e880734f8536d327581f7f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_90
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 96
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53872b769d4774d4c8b6cfcda625da5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_91
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 88
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6582270e018bf5546963a1a915eea677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_92
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 88
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40209318b7c15d14c893c1ee40234505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_93
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 88
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0303f06c015dddd4382121117585c933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_94
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 88
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8422de39eaa9a49a3a5fe7cbd2de3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 88
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2dda605b0dc4245a7991f334da6b71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_96
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e03376356d07254db8941e2b6a3f2a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_97
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 88
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca558eab0452d946bb3dea5c77786b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_98
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8526b5b1ae14d75479f9f7cd4feb914d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_99
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f42c6ddd3f3e1e4fb734aa82ac9b354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_100
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d710960f4301346bd794b1356668cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_101
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4834212d8f758449a6b43b43a351ed9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243ede50a33a7734da67699cf50a2a39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_103
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe540016446adf46a9cc2076167251c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_104
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bfa0d96a054c54da77dffae7a1d2f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_105
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a9c8432800e5a419aab63535e3b11c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_106
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e428f42098da7434da458f77e6bba775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_107
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc35465a9b6a9724f99128b4b42c009d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_108
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdb79fb96603fd4a938138a5421cf59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_109
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e6437da8cdaac48913fe6a5e5656b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_110
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af47030dc0155e4faf1de0c2438b099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_111
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92e071b5353d1b468180af8258b510b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_112
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d610cb37597b93439f4be19e3ae0b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_113
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cb68f84b4be9f45bbb973365b3f7d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_114
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a64ff0ad36dbb4f9a6d447d127c4c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_115
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 80
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca955b6ffbba7a34b833046e1b32d8bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_116
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 72
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e675e7ffd5fac4092deac991495318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_117
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 72
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f8b374700269944948a3fdcdd0931b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_118
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 64
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e686b0bea20465a439c6094131cd269b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_119
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 64
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839c71da59ac4354e9efdc4fde19bf6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_120
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 64
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ebfd97bafec7842be86eb39ddd6aaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_121
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 64
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d249792960497849b5a496ba8228a84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_122
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 56
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b935276ea189cda439f79012273fe26e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_123
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc755e608401eb840b9d205b34d9f53c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_124
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 56
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91148c6cae81246a6b7b44d0706f5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_125
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 56
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bde892142162241b29b1a86fb4af36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_126
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 56
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d179ef1f1e8f6f4c8f0425eea4a8036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_127
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 48
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810f42df381baca40ae9cb9df1271a3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61718f1cac9ce1b49b27b353c8a7b208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_129
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 48
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd59a9820e9138644969f52f885bac5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_130
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 48
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad55c01d4230ece4883effde1096efc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_131
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 48
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eef3150c1216c4c963034ebe704968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_132
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b546852c4bf73549aeeb1def1098293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_133
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eb314330ce0ff45ae5ec36631c4906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_134
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8725463e80476704b8a7ac17e3f4ba2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_135
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca137655c929fb147bb988478d1ae53c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019f87dc33e4dfc42a0be6f7183bb82d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_137
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af1ac6dd5806644fa45f60a21cc6fcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_138
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d985d6332e2b9cc4fa4d25a752745950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_139
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 40
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5553ba995d5114786897fa92445f3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_140
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de22e24dfc5192f498ff0f4cf5a20174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_141
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6bcc68de35d0f4194f16d92fa33804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_142
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0134620e3b19f54c9e7e77cd8647560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_143
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2875edf0506f4aad549ea08b60ae1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eb7bcf003ff5a4caa49a005648625f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_145
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c46f56d493baa4abbfa1a8728aadc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_146
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4dc17c4b762f947a1ddb2ca1c5849c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_147
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 32
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a93c75737959bd4d85481a14fdc6e3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_148
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f358f99401a5f4d9d597d55670d076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_149
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910d90f4c9c139e42a793153f5abfafe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_150
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07a02eb5a855ad4c9821d0eb43da6c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_151
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70778ec1c32c64c4da422c7e71752a04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_152
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3986ce6006c5d4ba89ded5b4d761d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_153
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588f4f13fbe13ff429b3323d592f132a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_154
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa8baa7e47eade4492611bd4f8a3372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_155
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 24
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c948adcc87cfbf743bdd9a13e0ab63d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_156
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f66290b0904eb94c962d8fd21c9dd6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_157
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 16
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d665791e8483343b43767558767be6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_158
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 16
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f4744099fc9c0428df4328f04b2d29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_159
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 16
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ebafd4753084548ad510e63169399d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_160
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 16
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31357faa78a0273448457f9dcd960672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_161
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 16
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524aba2e7ab72694ba35c1b4dd164fd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_162
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 16
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47dbaf32125757448bfb7025d61ff3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_163
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 8
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edba7f588606b54899a074f6f072c50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_164
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 8
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51cd4979c218bb449aaaf52592a6410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_165
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 8
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358d9b591f6ac7349b7609a20cd93a15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_166
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 8
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82d9fe1ea9711f45a6bcac3b2988416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_167
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f82af1086499c3419c803997d93dead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_168
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b13f18b8dc28c8479d989d4b6abe8cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_169
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cdaaf09b0f7a445b3845a05b99a7c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Vaus II 2_170
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 25.11111
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8099525d8c739d4688eeaace0af66b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cb10c6fbf8ee79d42862fbe11e15b006
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

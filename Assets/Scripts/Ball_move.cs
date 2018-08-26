@@ -24,7 +24,7 @@ public class Ball_move : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.name == "player")
+        if (collision.gameObject.name == "player")
         {
             float dir = ballBounceDir(collision.transform.position, transform.position, collision.collider.bounds.size.x);
 
@@ -37,9 +37,13 @@ public class Ball_move : MonoBehaviour {
                 oldDir = newDir;
             }
             GetComponent<Rigidbody2D>().velocity = newDir * speed;
+            var position = transform.position;
+            position.y = collision.gameObject.transform.position.y + collision.otherCollider.bounds.size.y;
+            transform.position = position;
+
             soundManager.PlayCollisionPlayerBall();
-        }   
-        
+        }
+
     }
 
 
@@ -48,6 +52,7 @@ public class Ball_move : MonoBehaviour {
     {
         return (ball.x - player.x)/playerSize;
     }
+    
 
     // Update is called once per frame
     void Update()
@@ -60,6 +65,7 @@ public class Ball_move : MonoBehaviour {
 
     void LateUpdate()
     {
+        
         if (sticked)
         {
             if (Input.GetKey(KeyCode.Space))

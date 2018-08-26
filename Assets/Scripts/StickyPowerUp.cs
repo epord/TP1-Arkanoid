@@ -56,8 +56,11 @@ public class StickyPowerUp : MonoBehaviour, PowerUp {
         {
             foreach (var ball in balls)
             {
-                var ballMove = ball.GetComponent<Ball_move>();
-                ballMove.NoStickMode();
+                if (ball != null)
+                {
+                    var ballMove = ball.GetComponent<Ball_move>();
+                    ballMove.NoStickMode();
+                }
             }
         }
         Destroy(this);
