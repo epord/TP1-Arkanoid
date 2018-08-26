@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TripleBallPowerUp : MonoBehaviour {
+public class TripleBallPowerUp : MonoBehaviour
+{
+    public int MaxBallsAllowed = 9;
     private GameObject player;
     private SoundManager soundManager;
 
@@ -29,11 +31,15 @@ public class TripleBallPowerUp : MonoBehaviour {
         if (collision.gameObject.name == "player")
         {
             var balls = GameObject.FindGameObjectsWithTag("Ball");
-            foreach (var ball in balls)
+            if (balls.Length < MaxBallsAllowed / 3)
             {
-                CopyBall(ball, new Vector2(0, 1).normalized);
-                CopyBall(ball, new Vector2(1, 1).normalized);
+                foreach (var ball in balls)
+                {
+                    CopyBall(ball, new Vector2(0, 1).normalized);
+                    CopyBall(ball, new Vector2(1, 1).normalized);
+                }
             }
+            
             soundManager.PlayPowerUp();
             Destroy(this.gameObject);
         }
