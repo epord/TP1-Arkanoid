@@ -14,11 +14,11 @@ public class mover : MonoBehaviour {
     void Start () {
 	}
 
-    private void Update()
+    private void FixedUpdate()
     {
         // Direction and speed
         float h = Input.GetAxisRaw("Horizontal");
-        GetComponent<Rigidbody2D>().velocity = Vector2.right * h * speed;
+        GetComponent<Rigidbody2D>().velocity = Vector2.right * h * speed ;
     }
 
     void LateUpdate()
@@ -49,6 +49,7 @@ public class mover : MonoBehaviour {
     {
         var newSize = GetComponent<SpriteRenderer>().bounds.size;
         GetComponent<BoxCollider2D>().size = newSize;
+
     }
 
     public void SetShortMode()

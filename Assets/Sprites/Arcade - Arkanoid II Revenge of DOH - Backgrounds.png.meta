@@ -1,0 +1,2283 @@
+fileFormatVersion: 2
+guid: 51f6ce1cb0c25cf45b6643a0d91ef568
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Arcade - Arkanoid II Revenge of DOH - Backgrounds_0
+    21300002: Arcade - Arkanoid II Revenge of DOH - Backgrounds_1
+    21300004: Arcade - Arkanoid II Revenge of DOH - Backgrounds_2
+    21300006: Arcade - Arkanoid II Revenge of DOH - Backgrounds_3
+    21300008: Arcade - Arkanoid II Revenge of DOH - Backgrounds_4
+    21300010: Arcade - Arkanoid II Revenge of DOH - Backgrounds_5
+    21300012: Arcade - Arkanoid II Revenge of DOH - Backgrounds_6
+    21300014: Arcade - Arkanoid II Revenge of DOH - Backgrounds_7
+    21300016: Arcade - Arkanoid II Revenge of DOH - Backgrounds_8
+    21300018: Arcade - Arkanoid II Revenge of DOH - Backgrounds_9
+    21300020: Arcade - Arkanoid II Revenge of DOH - Backgrounds_10
+    21300022: Arcade - Arkanoid II Revenge of DOH - Backgrounds_11
+    21300024: Arcade - Arkanoid II Revenge of DOH - Backgrounds_12
+    21300026: Arcade - Arkanoid II Revenge of DOH - Backgrounds_13
+    21300028: Arcade - Arkanoid II Revenge of DOH - Backgrounds_14
+    21300030: Arcade - Arkanoid II Revenge of DOH - Backgrounds_15
+    21300032: Arcade - Arkanoid II Revenge of DOH - Backgrounds_16
+    21300034: Arcade - Arkanoid II Revenge of DOH - Backgrounds_17
+    21300036: Arcade - Arkanoid II Revenge of DOH - Backgrounds_18
+    21300038: Arcade - Arkanoid II Revenge of DOH - Backgrounds_19
+    21300040: Arcade - Arkanoid II Revenge of DOH - Backgrounds_20
+    21300042: Arcade - Arkanoid II Revenge of DOH - Backgrounds_21
+    21300044: Arcade - Arkanoid II Revenge of DOH - Backgrounds_22
+    21300046: Arcade - Arkanoid II Revenge of DOH - Backgrounds_23
+    21300048: Arcade - Arkanoid II Revenge of DOH - Backgrounds_24
+    21300050: Arcade - Arkanoid II Revenge of DOH - Backgrounds_25
+    21300052: Arcade - Arkanoid II Revenge of DOH - Backgrounds_26
+    21300054: Arcade - Arkanoid II Revenge of DOH - Backgrounds_27
+    21300056: Arcade - Arkanoid II Revenge of DOH - Backgrounds_28
+    21300058: Arcade - Arkanoid II Revenge of DOH - Backgrounds_29
+    21300060: Arcade - Arkanoid II Revenge of DOH - Backgrounds_30
+    21300062: Arcade - Arkanoid II Revenge of DOH - Backgrounds_31
+    21300064: Arcade - Arkanoid II Revenge of DOH - Backgrounds_32
+    21300066: Arcade - Arkanoid II Revenge of DOH - Backgrounds_33
+    21300068: Arcade - Arkanoid II Revenge of DOH - Backgrounds_34
+    21300070: Arcade - Arkanoid II Revenge of DOH - Backgrounds_35
+    21300072: Arcade - Arkanoid II Revenge of DOH - Backgrounds_36
+    21300074: Arcade - Arkanoid II Revenge of DOH - Backgrounds_37
+    21300076: Arcade - Arkanoid II Revenge of DOH - Backgrounds_38
+    21300078: Arcade - Arkanoid II Revenge of DOH - Backgrounds_39
+    21300080: Arcade - Arkanoid II Revenge of DOH - Backgrounds_40
+    21300082: Arcade - Arkanoid II Revenge of DOH - Backgrounds_41
+    21300084: Arcade - Arkanoid II Revenge of DOH - Backgrounds_42
+    21300086: Arcade - Arkanoid II Revenge of DOH - Backgrounds_43
+    21300088: Arcade - Arkanoid II Revenge of DOH - Backgrounds_44
+    21300090: Arcade - Arkanoid II Revenge of DOH - Backgrounds_45
+    21300092: Arcade - Arkanoid II Revenge of DOH - Backgrounds_46
+    21300094: Arcade - Arkanoid II Revenge of DOH - Backgrounds_47
+    21300096: Arcade - Arkanoid II Revenge of DOH - Backgrounds_48
+    21300098: Arcade - Arkanoid II Revenge of DOH - Backgrounds_49
+    21300100: Arcade - Arkanoid II Revenge of DOH - Backgrounds_50
+    21300102: Arcade - Arkanoid II Revenge of DOH - Backgrounds_51
+    21300104: Arcade - Arkanoid II Revenge of DOH - Backgrounds_52
+    21300106: Arcade - Arkanoid II Revenge of DOH - Backgrounds_53
+    21300108: Arcade - Arkanoid II Revenge of DOH - Backgrounds_54
+    21300110: Arcade - Arkanoid II Revenge of DOH - Backgrounds_55
+    21300112: Arcade - Arkanoid II Revenge of DOH - Backgrounds_56
+    21300114: Arcade - Arkanoid II Revenge of DOH - Backgrounds_57
+    21300116: Arcade - Arkanoid II Revenge of DOH - Backgrounds_58
+    21300118: Arcade - Arkanoid II Revenge of DOH - Backgrounds_59
+    21300120: Arcade - Arkanoid II Revenge of DOH - Backgrounds_60
+    21300122: Arcade - Arkanoid II Revenge of DOH - Backgrounds_61
+    21300124: Arcade - Arkanoid II Revenge of DOH - Backgrounds_62
+    21300126: Arcade - Arkanoid II Revenge of DOH - Backgrounds_63
+    21300128: Arcade - Arkanoid II Revenge of DOH - Backgrounds_64
+    21300130: Arcade - Arkanoid II Revenge of DOH - Backgrounds_65
+    21300132: Arcade - Arkanoid II Revenge of DOH - Backgrounds_66
+    21300134: Arcade - Arkanoid II Revenge of DOH - Backgrounds_67
+    21300136: Arcade - Arkanoid II Revenge of DOH - Backgrounds_68
+    21300138: Arcade - Arkanoid II Revenge of DOH - Backgrounds_69
+    21300140: Arcade - Arkanoid II Revenge of DOH - Backgrounds_70
+    21300142: Arcade - Arkanoid II Revenge of DOH - Backgrounds_71
+    21300144: Arcade - Arkanoid II Revenge of DOH - Backgrounds_72
+    21300146: Arcade - Arkanoid II Revenge of DOH - Backgrounds_73
+    21300148: Arcade - Arkanoid II Revenge of DOH - Backgrounds_74
+    21300150: Arcade - Arkanoid II Revenge of DOH - Backgrounds_75
+    21300152: Arcade - Arkanoid II Revenge of DOH - Backgrounds_76
+    21300154: Arcade - Arkanoid II Revenge of DOH - Backgrounds_77
+    21300156: Arcade - Arkanoid II Revenge of DOH - Backgrounds_78
+    21300158: Arcade - Arkanoid II Revenge of DOH - Backgrounds_79
+    21300160: Arcade - Arkanoid II Revenge of DOH - Backgrounds_80
+    21300162: Arcade - Arkanoid II Revenge of DOH - Backgrounds_81
+    21300164: Arcade - Arkanoid II Revenge of DOH - Backgrounds_82
+    21300166: Arcade - Arkanoid II Revenge of DOH - Backgrounds_83
+    21300168: Arcade - Arkanoid II Revenge of DOH - Backgrounds_84
+    21300170: Arcade - Arkanoid II Revenge of DOH - Backgrounds_85
+    21300172: Arcade - Arkanoid II Revenge of DOH - Backgrounds_86
+    21300174: Arcade - Arkanoid II Revenge of DOH - Backgrounds_87
+    21300176: Arcade - Arkanoid II Revenge of DOH - Backgrounds_88
+    21300178: Arcade - Arkanoid II Revenge of DOH - Backgrounds_89
+    21300180: Arcade - Arkanoid II Revenge of DOH - Backgrounds_90
+    21300182: Arcade - Arkanoid II Revenge of DOH - Backgrounds_91
+    21300184: Arcade - Arkanoid II Revenge of DOH - Backgrounds_92
+    21300186: Arcade - Arkanoid II Revenge of DOH - Backgrounds_93
+    21300188: Arcade - Arkanoid II Revenge of DOH - Backgrounds_94
+    21300190: Arcade - Arkanoid II Revenge of DOH - Backgrounds_95
+    21300192: Arcade - Arkanoid II Revenge of DOH - Backgrounds_96
+    21300194: Arcade - Arkanoid II Revenge of DOH - Backgrounds_97
+    21300196: Arcade - Arkanoid II Revenge of DOH - Backgrounds_98
+    21300198: Arcade - Arkanoid II Revenge of DOH - Backgrounds_99
+    21300200: Arcade - Arkanoid II Revenge of DOH - Backgrounds_100
+    21300202: Arcade - Arkanoid II Revenge of DOH - Backgrounds_101
+    21300204: Arcade - Arkanoid II Revenge of DOH - Backgrounds_102
+    21300206: Arcade - Arkanoid II Revenge of DOH - Backgrounds_103
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 200
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9369a4babc42c444398ae37dd6a08d43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 200
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae4ba8b55f33fa498fb55b3377fe6c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 192
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad118f7a351244343acbdda6d00417a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 184
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ae7ec4aec638049b575405da310d63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 176
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c47bb285d9ab847ae7b7b0c5c598de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 168
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebee96eb2f94844cba51458983cfb5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_6
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 168
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea218a840da81940a38e56e3a320e4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_7
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 168
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f475ef82152c9e45a9f04fe7cdac1ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 160
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d89d0152f604b4fb24834b076707ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_9
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 160
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3315205ce465976448edd1a5ccf3adbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 160
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ff30800036b27429ab35fe3fb0d1c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 152
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe0b5b9a9bd3ca4ea3a712e67ed2d7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_12
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 152
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd88f9accdd8f14da463609baea981b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 152
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1f2dc2593614a4c929619b3194c1c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 152
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef338d352a85cc49bf2e8a93c1a891e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 152
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71519a08f77afd341b8f78afc60fbfd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 144
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71fea49a568bc342a9cda2d4acf2df9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 144
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bae50db230c4284097edb8460c0bad9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_18
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d887ea90cf05bf4094ed46c76c90b25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_19
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 144
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094a0a111fc345e4da131808431642e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 144
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204c7b902fbb8c74ab5d02f5f2c9aeaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 136
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05145eb288ec4444e9d1def2fa66602e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_22
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 136
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a3d79b90467cf4ebe57f5a3443f75c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_23
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 136
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b46dffc6d4def74f9428156ba058d23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 136
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542027cf56793e04b8f06b6cb2b79957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_25
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 136
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d1a0c02339b21498c40b4950e0a55e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 128
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a82f7226efd6f942bb4e3e45fdbb5dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 128
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab5111a734ec1e4e8de6096e4a57a89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_28
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 128
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd54f0615cbd9f4fa4aba98171c5d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_29
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 128
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc334922abc6e14ebbebe7580dbffdf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_30
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 128
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25cd4ac9e173843989a5bcd4a79491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_31
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 120
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76003fb58d87ab44cad5710a2b392d6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 120
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91ec5e3aaef6674c805328164d88083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_33
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 120
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab9405617e418b47ac8284089cf2804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_34
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 120
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a655e5bad053524cada76d6f81d583d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_35
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 120
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e512a4448ecb644bf55238969ee35d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 112
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707ee54b88e7cd44487fc1e1b57b9dc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_37
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 112
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae6ee0ddf2f7cc4c9c9389cd4e9caf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_38
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 112
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ae6639be144a64dbe5c33583f23c33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_39
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 112
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8691ccba754e03844b6711b52c353f68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 112
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33166651721fcb249b9d7dfba21e564a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_41
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 104
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edb522744f639b4aaa8981454051c2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_42
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 104
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31475c33985234f47ba48a6af7630731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_43
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 104
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f704ee439e45a94eae969a6c6cdabc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_44
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 104
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486de187de91b524ca8bccd2ca01676c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_45
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 104
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b053b14581aa145b5c8832c81435c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 96
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefe67d3dd8971742b8ef77b084e86af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_47
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c02457cac94d5545bb5d34157dddfdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_48
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 96
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de613f9e0b4d99645a4eed23a76c0c59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 96
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511f1c16f09b8b4478d8056deaee8aa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_50
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 96
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae2588e4b90c994da64f8c7e36668e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_51
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5979daab4fa053541a37bfa9c6af45e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a222b453418a16c4a9edc8b079587157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_53
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0af5c2ff1a211184c987c9132202b31f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_54
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f4bbf0a0d370141a44d16dfc80acee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_55
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28e9be4e75c5bc4896f9a8f6c3de056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_56
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 80
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d64591068c6de4e9e919e4bbe6e414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_57
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 80
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931e9d41c2e08c04f9ffe0899a40e6e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_58
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 80
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a506a15512b2cb440b2b19e42db9b17d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_59
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 80
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d318f51dff867c34389120f894f00705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_60
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 80
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe1614fb314856438fac6f09a7294c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_61
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 72
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65e790278ec0e84bb1fd1c3fb7e6b4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_62
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 72
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1036177bc81579843aead3487c1fa678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_63
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 72
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2538dcb92beee4597c59b6db3f1512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_64
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 72
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a6ca52e59460843a6bcb92053a26c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_65
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 72
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb036efc691acfb458ee44f70a211f64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_66
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 64
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cdc760ed7022a46936e407406f572f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_67
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39aaac4ff30c0294786254e76070a2d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_68
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 64
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7289be1dd16c74a9ebd6ebae543fca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_69
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 64
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101bf4526d41b074f9c56c1558645756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_70
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 64
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34842f611ec7fa24690ba8e880316069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_71
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 56
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0aed79c52990b44bd0213040ed731f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_72
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 56
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1186c801c2e4449b3cbc2f294168c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_73
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 56
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60ca149b369c7445bbbb950380dfd60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_74
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 56
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281f5413fc9b09b47882000957b3dabc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_75
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 56
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b0cc40cb4393240b500c49d606e9cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_76
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 48
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274149056cac33a459f8e6cdc251e321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_77
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fca36c3928ec734e9c7be5797308dc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_78
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 48
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0861f4a572568ff439bc3fe10ae17468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_79
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 48
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dc1e26a4d4ea94a98472bd07ea8cd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_80
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 40
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4947a03d8dcfa674cbc1c6dc2267197d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_81
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 40
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec3b2d406d5cb5429836b5789591b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_82
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 40
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb15d7eefad3644db6adfa59706020e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_83
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 40
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0202760d629287b4489867b0e6618d37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_84
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40e3d49e658138419a6de3a15cd2d3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_85
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 32
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08b4265788695e488eb2917b68126f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_86
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 32
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5555838683cd949a901aa266f10027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_87
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 32
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f268d4b2c479944d9a9b64216c83163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_88
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 24
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c0d950d14ff13448ae79da25f47342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_89
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 24
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2e4f8058ab5bf4cb6f525b40ca3edf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_90
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 24
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fd77bd225a0884db99e21597c7fd10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_91
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 24
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1117d281c1ba9f44ca66bd6c7a59c5d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_92
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a05622078ae8942b0689e79321b8b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_93
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 16
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13629c348e9d13499b29b15e3bb3cf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_94
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 16
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6e5b08645ece543a0837d56d26e0bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_95
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 16
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7039b4efbb28148b87dd5ad4134705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_96
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 8
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eacfecbbc225fd4090088b992162cf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_97
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 8
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf33a250153b144c921213d689af8b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_98
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 8
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf7a581a4517e046a26c76cd1a22b20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_99
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 8
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252fac7d55a0c7b438580972c4a28483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_100
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7851780afbe5442b91870a75cbd8c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_101
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51e1f63873b6b448948468ae6e97e96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_102
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef877e612c02014b8d4dae7771c2e86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arcade - Arkanoid II Revenge of DOH - Backgrounds_103
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5301bb8a35aad40b78ee08cd989282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 586330aa69dd79345a2c662ad6a2ed3b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

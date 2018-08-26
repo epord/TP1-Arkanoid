@@ -9,43 +9,77 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1687480013578038}
+  m_RootGameObject: {fileID: 1439690802749244}
   m_IsPrefabAsset: 1
---- !u!1 &1687480013578038
+--- !u!1 &1439690802749244
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4124372660330962}
-  - component: {fileID: 212893852918936054}
+  - component: {fileID: 4105540287692470}
+  - component: {fileID: 95386710833284644}
+  - component: {fileID: 212340126666708658}
+  - component: {fileID: 114107477201477804}
   m_Layer: 0
-  m_Name: gameover
+  m_Name: Gates
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4124372660330962
+--- !u!4 &4105540287692470
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687480013578038}
+  m_GameObject: {fileID: 1439690802749244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 106, y: 100, z: 0}
+  m_LocalPosition: {x: 50, y: 236, z: -2.3288262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &212893852918936054
+--- !u!95 &95386710833284644
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439690802749244}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9143277b65844e44fae7b211517ff082, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114107477201477804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439690802749244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e94f8551a91b9cd4d8ac469bb3632c6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemySpawnInterval: 300
+  CloseInterval: 180
+  Enemy: {fileID: 1328125928059426, guid: 88c0528bb1a1926428a0ec018aa2a725, type: 2}
+--- !u!212 &212340126666708658
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687480013578038}
+  m_GameObject: {fileID: 1439690802749244}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -75,12 +109,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6eebbc576f978439b870dd7608035424, type: 3}
+  m_Sprite: {fileID: 21300004, guid: 51f6ce1cb0c25cf45b6643a0d91ef568, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 72, y: 9}
+  m_Size: {x: 31, y: 8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
