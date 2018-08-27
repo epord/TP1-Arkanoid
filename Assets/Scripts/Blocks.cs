@@ -10,12 +10,14 @@ public class Blocks : MonoBehaviour
     public double dropRate = 0.10;
     private RandomManager randomManager;
     private PowerUpManager powerUpManager;
+    private ScoreManager scoreManager;
 
     private void Start()
     {
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
         randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
         powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
     }
 
     void OnCollisionEnter2D(Collision2D collisionInfo)
@@ -45,6 +47,7 @@ public class Blocks : MonoBehaviour
                 bonus.transform.position = transform.position;
                 bonus.transform.rotation = transform.rotation;
             }
+            scoreManager.updateScore(gameObject);
             Destroy(gameObject);    
         }
         

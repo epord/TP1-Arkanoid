@@ -8,6 +8,8 @@ TagManager:
   - Ball
   - Brick
   - SoundManager
+  - PowerUp
+  - Enemy
   layers:
   - Default
   - TransparentFX

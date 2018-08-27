@@ -5,11 +5,14 @@ using UnityEngine;
 public class TripleBallPowerUp : MonoBehaviour {
     private GameObject player;
     private SoundManager soundManager;
+    private ScoreManager scoreManager;
 
     // Use this for initialization
     void Start () {
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        scoreManager.updateScore(gameObject);
     }
 	
 	// Update is called once per frame

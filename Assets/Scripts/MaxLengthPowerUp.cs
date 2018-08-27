@@ -9,12 +9,15 @@ public class MaxLengthPowerUp : MonoBehaviour, PowerUp {
     public float timer = 10;
     private SoundManager soundManager;
     private PowerUpManager powerUpManager;
+    private ScoreManager scoreManager;
 
 	// Use this for initialization
 	void Start () {
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
 	    powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        scoreManager.updateScore(gameObject);
     }
 	
 	// Update is called once per frame

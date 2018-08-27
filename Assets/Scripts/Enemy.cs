@@ -12,13 +12,15 @@ public class Enemy : MonoBehaviour
     private long randomWalk = 0;
     private Vector2 currentDirection;
     private RandomManager randomManager;
+    private ScoreManager scoreManager;
 
 	// Use this for initialization
 	void Start ()
 	{
 	    animator = GetComponent<Animator>();
 	    randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
-	}
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate ()
@@ -56,6 +58,7 @@ public class Enemy : MonoBehaviour
         {
             alive = false;
             animator.SetBool("Alive", false);
+            scoreManager.updateScore(gameObject);
             Destroy(GetComponent<BoxCollider2D>());
             Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
         }

@@ -9,11 +9,14 @@ public class StickyPowerUp : MonoBehaviour, PowerUp {
     private GameObject[] balls;
     private SoundManager soundManager;
     private PowerUpManager powerUpManager;
+    private ScoreManager scoreManager;
 
     private void Start()
     {
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
         powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        scoreManager.updateScore(gameObject);
     }
 
     public void Update()
