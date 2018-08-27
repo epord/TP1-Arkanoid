@@ -8,6 +8,7 @@ public class Blocks : MonoBehaviour
     private SoundManager soundManager;
     public int hp;
     public double dropRate = 0.10;
+    public bool Indestructible;
     private RandomManager randomManager;
     private PowerUpManager powerUpManager;
     private ScoreManager scoreManager;
@@ -18,10 +19,15 @@ public class Blocks : MonoBehaviour
         randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
         powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        if (Indestructible)
+        {
+            gameObject.tag = "indestructible_block";
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collisionInfo)
     {
+
         if(hp == 1)
         {
             soundManager.PlayFirstHit();
@@ -36,20 +42,22 @@ public class Blocks : MonoBehaviour
             soundManager.PlayFourthHit();
         }
 
-        hp--;
-
-        if(hp <= 0)
+        if (randomManager.GetRandom().NextDouble() < dropRate)
         {
-            if (randomManager.GetRandom().NextDouble() < dropRate)
-            {
-                var bonus = Instantiate(powerUpManager.RandomPowerUp());
-                //bonus.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
-                bonus.transform.position = transform.position;
-                bonus.transform.rotation = transform.rotation;
-            }
-            scoreManager.updateScore(gameObject);
-            Destroy(gameObject);    
+            var bonus = Instantiate(powerUpManager.RandomPowerUp());
+            //bonus.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
+            bonus.transform.position = transform.position;
+            bonus.transform.rotation = transform.rotation;
         }
-        
+
+        if (!Indestructible)
+        {
+            hp--;
+            if (hp <= 0)
+            {
+                scoreManager.updateScore(gameObject);
+                Destroy(gameObject);
+            }
+        }
     }
 }
