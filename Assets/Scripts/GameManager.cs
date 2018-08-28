@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour {
     private Vector3 initialPlayerPosition;
     private bool isGameOver = false;
     private int lifesRemaining = 3;
+    private int maxLifes = 3;
 
     void Start()
     {
@@ -26,6 +27,14 @@ public class GameManager : MonoBehaviour {
         initialBallPosition = ball.transform.position;
     }
 	
+    public void addLife()
+    {
+        if (lifesRemaining < maxLifes) {
+            lifes[lifesRemaining].SetActive(true);
+            lifesRemaining++;
+        }
+    }
+
     void Update () {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             SceneManager.LoadScene("MenuScene");

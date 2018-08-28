@@ -19,8 +19,9 @@ public class Enemy : MonoBehaviour
 	void Start ()
 	{
 	    animator = GetComponent<Animator>();
-	    randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
+        randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
     }
 	
 	// Update is called once per frame
