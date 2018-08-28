@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1589596929793474}
+  m_IsPrefabAsset: 1
+--- !u!1 &1589596929793474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4476790515341356}
+  - component: {fileID: 114004698813936170}
+  m_Layer: 0
+  m_Name: PowerUpManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4476790515341356
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589596929793474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.95809, y: 99.261475, z: -2.5436268}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114004698813936170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589596929793474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a801b22e0340f04fbacc094d6e6ab94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickyPowerUp: {fileID: 1660334951114780, guid: dd6cdc8be71dbbb4fabd9ac8f888e5e5,
+    type: 2}
+  maxLengthPowerUp: {fileID: 1938928554633134, guid: 96f9a891aa2c39044857b0a59e902f50,
+    type: 2}
+  minLengthPowerUp: {fileID: 1776269928296430, guid: d326c51753016354c9e027f20183f142,
+    type: 2}
+  projectilePowerUp: {fileID: 1664955379625670, guid: 109d6b9f04489467ca5c13520ea3d590,
+    type: 2}
+  triplePowerUp: {fileID: 1037393439297392, guid: 8553e9e0fd715c0418397fe64c16c52a,
+    type: 2}
+  lifePowerUp: {fileID: 1646705018810926, guid: 865634e134635440088ca12a3d8e35ac,
+    type: 2}

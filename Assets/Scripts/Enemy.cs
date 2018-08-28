@@ -15,14 +15,16 @@ public class Enemy : MonoBehaviour
     private ScoreManager scoreManager;
     private EnemyManager enemyManager;
     private float deathCountDown;
+    private SoundManager soundManager;
 
 	// Use this for initialization
 	void Start ()
 	{
 	    animator = GetComponent<Animator>();
-	    randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
+        randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
+        soundManager = GameObject.Find("SoundManager").GetComponent<SoundManager>();
     }
 	
     public void SetAlive()
@@ -77,6 +79,7 @@ public class Enemy : MonoBehaviour
             scoreManager.updateScore(gameObject);
             GetComponent<BoxCollider2D>().enabled = false;
             deathCountDown = 40;
+            soundManager.PlayFourthHit();
         }
     }
 }
