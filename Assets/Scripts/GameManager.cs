@@ -46,12 +46,14 @@ public class GameManager : MonoBehaviour {
                 continueSprite.GetComponent<Renderer>().enabled = true;
                 isGameOver = true;
                 player.GetComponent<Animator>().SetBool("Alive", false);
+                soundManager.PlayGameOver();
             } else {
                 // LIFE LOST
                 lifes[lifesRemaining-- - 1].SetActive(false);
                 player.transform.position = initialPlayerPosition;
                 ball = (GameObject)Instantiate(ballPrefab);
                 ball.transform.position = initialBallPosition;
+                soundManager.PlayLifeLost();
             }
         }
         if (GameObject.FindGameObjectsWithTag("Brick").Length == 0)

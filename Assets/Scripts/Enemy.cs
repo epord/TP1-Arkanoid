@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     private Vector2 currentDirection;
     private RandomManager randomManager;
     private ScoreManager scoreManager;
+    private SoundManager soundManager;
 
 	// Use this for initialization
 	void Start ()
@@ -59,6 +60,7 @@ public class Enemy : MonoBehaviour
             alive = false;
             animator.SetBool("Alive", false);
             scoreManager.updateScore(gameObject);
+            soundManager.PlayFourthHit();
             Destroy(GetComponent<BoxCollider2D>());
             Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
         }
