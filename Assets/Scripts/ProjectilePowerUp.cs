@@ -22,6 +22,13 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         scoreManager.updateScore(gameObject);
     }
+
+    private void CreateBullet(Vector2 position)
+    {
+        var bullet = Instantiate(projectile1);
+        bullet.transform.position = position;
+        bullet.transform.rotation = transform.rotation;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -38,9 +45,11 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
 				float playerY = player.transform.position.y + 5;
 
 				var bullet = Instantiate(projectile1);
-				bullet.transform.position = new Vector2(playerX, playerY);
+				bullet.transform.position = new Vector2(playerX - 5, playerY);
 				bullet.transform.rotation = transform.rotation;
-			}	
+                CreateBullet(new Vector2(playerX - 5, playerY));
+                CreateBullet(new Vector2(playerX + 5, playerY));
+            }	
 		}
 	}
 

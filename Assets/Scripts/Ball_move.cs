@@ -5,6 +5,8 @@ using UnityEngine;
 public class Ball_move : MonoBehaviour {
 
     private GameObject player;
+    public float leftBound = 0;
+    public float rightBound = 200;
     public float initialSpeed = 200;
     public float slowMultiplier = 0.5f;
     public float speed = 0;
@@ -34,8 +36,8 @@ public class Ball_move : MonoBehaviour {
                 speed = 0;
                 sticked = true;
                 stickyOffset = this.transform.position.x - player.transform.position.x;
-                oldDir = newDir;
             }
+            oldDir = newDir;
             GetComponent<Rigidbody2D>().velocity = newDir * speed;
             var position = transform.position;
             position.y = collision.gameObject.transform.position.y + collision.otherCollider.bounds.size.y;
@@ -43,7 +45,11 @@ public class Ball_move : MonoBehaviour {
 
             soundManager.PlayCollisionPlayerBall();
         }
+    }
 
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        GetComponent<Rigidbody2D>().velocity = oldDir * speed;
     }
 
     public void StartMoving(Vector2 direction) {
@@ -77,6 +83,8 @@ public class Ball_move : MonoBehaviour {
         {
             Destroy(this.gameObject);
         }
+
+        
     }
 
     void LateUpdate()
@@ -95,6 +103,7 @@ public class Ball_move : MonoBehaviour {
             {
                 var temp = this.transform.position;
                 temp.x = player.transform.position.x + stickyOffset;
+                temp.x = Mathf.Clamp(temp.x, leftBound, rightBound);
                 this.transform.position = temp;
             }
         }

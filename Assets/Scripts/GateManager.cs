@@ -6,17 +6,19 @@ public class GateManager : MonoBehaviour
 {
     public long EnemySpawnInterval;
     public long CloseInterval;
-    public GameObject Enemy;
+
     private long enemySpawnCountdown;
     private long closeCountdown = 0;
     private Animator animator;
-
-	// Use this for initialization
+    private EnemyManager enemyManager;
+	
+    // Use this for initialization
 	void Start ()
 	{
 	    animator = GetComponent<Animator>();
 	    enemySpawnCountdown = EnemySpawnInterval;
-	}
+        enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -37,8 +39,12 @@ public class GateManager : MonoBehaviour
 	            // Spawn an enemy
 
 	            animator.SetBool("Open", true);
-	            var enemy = Instantiate(Enemy);
-	            enemy.transform.position = transform.position;
+	            var enemy = enemyManager.GetEnemy();
+                if (enemy != null)
+                {
+                    enemy.transform.position = transform.position;
+                    enemy.GetComponent<Enemy>().SetAlive();
+                }
 	            closeCountdown = CloseInterval;
 	        }
         }

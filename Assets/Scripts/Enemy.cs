@@ -13,6 +13,8 @@ public class Enemy : MonoBehaviour
     private Vector2 currentDirection;
     private RandomManager randomManager;
     private ScoreManager scoreManager;
+    private EnemyManager enemyManager;
+    private float deathCountDown;
 
 	// Use this for initialization
 	void Start ()
@@ -20,8 +22,14 @@ public class Enemy : MonoBehaviour
 	    animator = GetComponent<Animator>();
 	    randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+        enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
     }
 	
+    public void SetAlive()
+    {
+        alive = true;
+    }
+
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
@@ -30,7 +38,7 @@ public class Enemy : MonoBehaviour
 	        var position = transform.position;
             if (position.y < 0)
 	        {
-                Destroy(gameObject);
+                enemyManager.ReleaseEnemy(gameObject);
 	        }
             else
             {
@@ -48,6 +56,14 @@ public class Enemy : MonoBehaviour
                     transform.position = position;
                 }
             }
+        } else if (deathCountDown > 0)
+        {
+            deathCountDown--;
+            if (deathCountDown == 0)
+            {
+                GetComponent<BoxCollider2D>().enabled = true;
+                enemyManager.ReleaseEnemy(gameObject);
+            }
         }
 	    
 	}
@@ -59,8 +75,8 @@ public class Enemy : MonoBehaviour
             alive = false;
             animator.SetBool("Alive", false);
             scoreManager.updateScore(gameObject);
-            Destroy(GetComponent<BoxCollider2D>());
-            Destroy(gameObject, animator.GetCurrentAnimatorStateInfo(0).length);
+            GetComponent<BoxCollider2D>().enabled = false;
+            deathCountDown = 40;
         }
     }
 }

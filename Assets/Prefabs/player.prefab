@@ -119,11 +119,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 200
-  longMode: 0
-  shortMode: 0
-  normalSprite: {fileID: 0}
-  longSprite: {fileID: 0}
-  shortSprite: {fileID: 0}
 --- !u!212 &212378118391696922
 SpriteRenderer:
   m_ObjectHideFlags: 1
