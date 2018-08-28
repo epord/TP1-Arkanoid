@@ -11,6 +11,7 @@ public class PowerUpManager : MonoBehaviour
     public GameObject minLengthPowerUp;
     public GameObject projectilePowerUp;
     public GameObject triplePowerUp;
+    public GameObject lifePowerUp;
 
     private GameObject[] powerUps;
 
@@ -25,6 +26,7 @@ public class PowerUpManager : MonoBehaviour
             minLengthPowerUp,
             projectilePowerUp,
             triplePowerUp,
+            lifePowerUp,
 		};
 
         randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
