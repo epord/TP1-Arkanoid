@@ -25,9 +25,10 @@ public class GameManager : MonoBehaviour {
         initialPlayerPosition = player.transform.position;
         initialBallPosition = ball.transform.position;
     }
-	
+
     void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape)) {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
             SceneManager.LoadScene("MenuScene");
         }
         if (isGameOver)
