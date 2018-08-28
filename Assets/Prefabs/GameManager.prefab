@@ -51,10 +51,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e67a0b262e56b446ab881a07c3ada760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverSprite: {fileID: 1687480013578038, guid: 736eae1e8ee4ad2439a35ec3140103fd,
-    type: 2}
-  continueSprite: {fileID: 1330786347519078, guid: 823d75203fd798744a03c404d6398e24,
-    type: 2}
-  soundManager: {fileID: 114471395250286492, guid: 713515acc0e76e44a8b0e2393e6be06c,
-    type: 2}
-  player: {fileID: 1467145230330480, guid: a96fb2f82ba782546ba9f24cc3e0fc5a, type: 2}
+  gameOverSprite: {fileID: 0}
+  continueSprite: {fileID: 0}
+  soundManager: {fileID: 0}
+  player: {fileID: 0}
+  ball: {fileID: 0}
+  ballPrefab: {fileID: 1776963894568880, guid: 4167bedd59e9e41c1b6fb719ce5dc866, type: 2}
+  lifes: []
+  isPlaying: 0

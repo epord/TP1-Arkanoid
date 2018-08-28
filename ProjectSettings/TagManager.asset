@@ -10,6 +10,8 @@ TagManager:
   - SoundManager
   - PowerUp
   - Enemy
+  - BallManager
+  - indestructible_block
   layers:
   - Default
   - TransparentFX

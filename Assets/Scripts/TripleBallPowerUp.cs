@@ -26,7 +26,7 @@ public class TripleBallPowerUp : MonoBehaviour
     {
         var ballCopy = Instantiate(ball);
         var ballCopyBallMove = ballCopy.GetComponent<Ball_move>();
-        ballCopyBallMove.initialDir = direction;
+        ballCopyBallMove.StartMoving(direction);
     }
 
     void OnCollisionEnter2D(Collision2D collision)

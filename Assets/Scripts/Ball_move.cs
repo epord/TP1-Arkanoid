@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class Ball_move : MonoBehaviour {
 
-    public GameObject player;
+    private GameObject player;
     public float initialSpeed = 200;
     public float slowMultiplier = 0.5f;
-    public float speed;
+    public float speed = 0;
     private float stickyOffset;
     public bool stickMode;
     private bool sticked;
     private Vector2 oldDir;
     public Vector2 initialDir = Vector2.up;
     private SoundManager soundManager;
+    public bool gameStarted = false;
 
     void Start () {
-        speed = initialSpeed;
-        GetComponent<Rigidbody2D>().velocity = initialDir * speed;
+        //speed = 0;
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
     }
@@ -46,17 +46,33 @@ public class Ball_move : MonoBehaviour {
 
     }
 
-
+    public void StartMoving(Vector2 direction) {
+        speed = initialSpeed;
+        GetComponent<Rigidbody2D>().velocity = direction * speed;
+        gameStarted = true;
+    }
 
     private float ballBounceDir(Vector2 player, Vector2 ball, float playerSize)
     {
         return (ball.x - player.x)/playerSize;
     }
-    
 
     // Update is called once per frame
     void Update()
     {
+        if (!gameStarted)
+        {
+            Vector3 pos = this.transform.position;
+            pos.x = player.transform.position.x;
+            this.transform.position = pos;
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                speed = initialSpeed;
+                GetComponent<Rigidbody2D>().velocity = initialDir * speed;
+                gameStarted = true;
+            }
+        }
+
         if (transform.position.y < 0)
         {
             Destroy(this.gameObject);
