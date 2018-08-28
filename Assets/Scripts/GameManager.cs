@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
     public GameObject gameOverSprite;
     public GameObject continueSprite;
     public SoundManager soundManager;
+    public GlobalControl globalControl;
     public GameObject player;
     public GameObject ball;
     public GameObject ballPrefab;
@@ -16,15 +17,22 @@ public class GameManager : MonoBehaviour {
     private Vector3 initialBallPosition;
     private Vector3 initialPlayerPosition;
     private bool isGameOver = false;
-    private int lifesRemaining = 3;
+    public int lifesRemaining;
     private int maxLifes = 3;
 
     void Start()
     {
+        lifesRemaining = globalControl.GetComponent<GlobalControl>().GetLifesRemaining();
         gameOverSprite.GetComponent<Renderer>().enabled = false;
         continueSprite.GetComponent<Renderer>().enabled = false;
         initialPlayerPosition = player.transform.position;
         initialBallPosition = ball.transform.position;
+
+        lifesRemaining = globalControl.GetComponent<GlobalControl>().GetLifesRemaining();
+        for (int i = lifesRemaining; i < maxLifes; i++)
+        {
+            lifes[i].SetActive(false);
+        }
     }
 	
     public void addLife()
@@ -43,6 +51,7 @@ public class GameManager : MonoBehaviour {
         {
             if (Input.anyKeyDown)
             {
+                globalControl.SetLifesRemaining(maxLifes);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
@@ -65,14 +74,10 @@ public class GameManager : MonoBehaviour {
                 soundManager.PlayLifeLost();
             }
         }
-        if (GameObject.FindGameObjectsWithTag("Brick").Length == 0)
+        if (GameObject.FindGameObjectsWithTag("Brick").Length == 0 || Input.GetKeyDown(KeyCode.Q))
         {
             // WIN
-            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
-        }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            // WIN (cheat)
+            globalControl.SetLifesRemaining(lifesRemaining);
             SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         }
     }
