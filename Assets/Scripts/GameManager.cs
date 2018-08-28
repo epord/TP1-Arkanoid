@@ -11,23 +11,15 @@ public class GameManager : MonoBehaviour {
     public GameObject ball;
     public GameObject ballPrefab;
     public GameObject[] lifes;
-    public bool isPlaying;
     public string nextScene;
 
     private Vector3 initialBallPosition;
     private Vector3 initialPlayerPosition;
     private bool isGameOver = false;
-    private const float EPSILON = 0.001f;
-    private string playingScene = "Level1";
-    private string menuScene = "MenuScene";
     private int lifesRemaining = 3;
 
     void Start()
     {
-        if (SceneManager.GetActiveScene().name == menuScene)
-        {
-            isPlaying = false;
-        }
         gameOverSprite.GetComponent<Renderer>().enabled = false;
         continueSprite.GetComponent<Renderer>().enabled = false;
         initialPlayerPosition = player.transform.position;
@@ -35,50 +27,42 @@ public class GameManager : MonoBehaviour {
     }
 	
     void Update () {
-        if (isPlaying == false)
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            SceneManager.LoadScene("MenuScene");
+        }
+        if (isGameOver)
         {
             if (Input.anyKeyDown)
             {
-                SceneManager.LoadScene(playingScene);
-                isPlaying = true;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
-        else
+        if (GameObject.FindGameObjectsWithTag("Ball").Length == 0)
         {
-            if (isGameOver)
+            if (lifesRemaining == 0)
             {
-                if (Input.anyKeyDown)
-                {
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                }
+                // GAME OVER
+                gameOverSprite.GetComponent<Renderer>().enabled = true;
+                continueSprite.GetComponent<Renderer>().enabled = true;
+                isGameOver = true;
+                player.GetComponent<Animator>().SetBool("Alive", false);
+            } else {
+                // LIFE LOST
+                lifes[lifesRemaining-- - 1].SetActive(false);
+                player.transform.position = initialPlayerPosition;
+                ball = (GameObject)Instantiate(ballPrefab);
+                ball.transform.position = initialBallPosition;
             }
-            if (GameObject.FindGameObjectsWithTag("Ball").Length == 0)
-            {
-                if (lifesRemaining == 0)
-                {
-                    // GAME OVER
-                    gameOverSprite.GetComponent<Renderer>().enabled = true;
-                    continueSprite.GetComponent<Renderer>().enabled = true;
-                    isGameOver = true;
-                    player.GetComponent<Animator>().SetBool("Alive", false);
-                } else {
-                    // LIFE LOST
-                    lifes[lifesRemaining-- - 1].SetActive(false);
-                    player.transform.position = initialPlayerPosition;
-                    ball = (GameObject)Instantiate(ballPrefab);
-                    ball.transform.position = initialBallPosition;
-                }
-            }
-            if (GameObject.FindGameObjectsWithTag("Brick").Length == 0)
-            {
-                // WIN
-                SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
-            }
-            if (Input.GetKeyDown(KeyCode.Q))
-            {
-                // WIN (cheat)
-                SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
-            }
+        }
+        if (GameObject.FindGameObjectsWithTag("Brick").Length == 0)
+        {
+            // WIN
+            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+        }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            // WIN (cheat)
+            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         }
     }
         
