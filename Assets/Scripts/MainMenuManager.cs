@@ -8,8 +8,11 @@ public class MainMenuManager : MonoBehaviour {
     public string firstScene;
     private SoundManager soundManager;
     private bool isPlaying = false;
+    private GlobalControl globalControl;
 
 	void Start () {
+        globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
+        globalControl.SetLifesRemaining(3);
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
         soundManager.PlayTitleScreen();
     }

@@ -7,28 +7,28 @@ public class GameManager : MonoBehaviour {
     public GameObject gameOverSprite;
     public GameObject continueSprite;
     public SoundManager soundManager;
-    public GlobalControl globalControl;
     public GameObject player;
     public GameObject ball;
     public GameObject ballPrefab;
     public GameObject[] lifes;
     public string nextScene;
 
+    private GlobalControl globalControl;
     private Vector3 initialBallPosition;
     private Vector3 initialPlayerPosition;
     private bool isGameOver = false;
-    public int lifesRemaining;
+    public int lifesRemaining = 3;
     private int maxLifes = 3;
 
     void Start()
     {
+
+        globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
         lifesRemaining = globalControl.GetComponent<GlobalControl>().GetLifesRemaining();
         gameOverSprite.GetComponent<Renderer>().enabled = false;
         continueSprite.GetComponent<Renderer>().enabled = false;
         initialPlayerPosition = player.transform.position;
         initialBallPosition = ball.transform.position;
-
-        lifesRemaining = globalControl.GetComponent<GlobalControl>().GetLifesRemaining();
         for (int i = lifesRemaining; i < maxLifes; i++)
         {
             lifes[i].SetActive(false);
