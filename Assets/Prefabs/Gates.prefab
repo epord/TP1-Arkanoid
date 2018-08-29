@@ -73,7 +73,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemySpawnInterval: 600
   CloseInterval: 180
-  Enemy: {fileID: 1328125928059426, guid: 88c0528bb1a1926428a0ec018aa2a725, type: 2}
 --- !u!212 &212340126666708658
 SpriteRenderer:
   m_ObjectHideFlags: 1
