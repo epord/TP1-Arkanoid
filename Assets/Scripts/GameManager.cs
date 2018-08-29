@@ -13,18 +13,26 @@ public class GameManager : MonoBehaviour {
     public GameObject[] lifes;
     public string nextScene;
 
+    private GlobalControl globalControl;
     private Vector3 initialBallPosition;
     private Vector3 initialPlayerPosition;
     private bool isGameOver = false;
-    private int lifesRemaining = 3;
+    public int lifesRemaining = 3;
     private int maxLifes = 3;
 
     void Start()
     {
+
+        globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
+        lifesRemaining = globalControl.GetComponent<GlobalControl>().GetLifesRemaining();
         gameOverSprite.GetComponent<Renderer>().enabled = false;
         continueSprite.GetComponent<Renderer>().enabled = false;
         initialPlayerPosition = player.transform.position;
         initialBallPosition = ball.transform.position;
+        for (int i = lifesRemaining; i < maxLifes; i++)
+        {
+            lifes[i].SetActive(false);
+        }
     }
 	
     public void addLife()
@@ -36,14 +44,14 @@ public class GameManager : MonoBehaviour {
     }
 
     void Update () {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
             SceneManager.LoadScene("MenuScene");
         }
         if (isGameOver)
         {
             if (Input.anyKeyDown)
             {
+                globalControl.SetLifesRemaining(maxLifes);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
         }
@@ -66,14 +74,10 @@ public class GameManager : MonoBehaviour {
                 soundManager.PlayLifeLost();
             }
         }
-        if (GameObject.FindGameObjectsWithTag("Brick").Length == 0)
+        if (GameObject.FindGameObjectsWithTag("Brick").Length == 0 || Input.GetKeyDown(KeyCode.Q))
         {
             // WIN
-            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
-        }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            // WIN (cheat)
+            globalControl.SetLifesRemaining(lifesRemaining);
             SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         }
     }
