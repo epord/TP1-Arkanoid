@@ -13,6 +13,7 @@ TagManager:
   - BallManager
   - indestructible_block
   - InactiveBall
+  - projectile
   layers:
   - Default
   - TransparentFX

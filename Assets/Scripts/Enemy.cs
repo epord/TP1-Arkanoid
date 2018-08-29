@@ -72,7 +72,7 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ball" || collision.gameObject.name == "player")
+        if (collision.gameObject.tag == "Ball" || collision.gameObject.name == "player" || collision.gameObject.tag == "projectile")
         {
             alive = false;
             animator.SetBool("Alive", false);

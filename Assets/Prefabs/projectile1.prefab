@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 61390367800332126}
   m_Layer: 12
   m_Name: projectile1
-  m_TagString: Untagged
+  m_TagString: projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5776e485804b5ec42a03b5155f6c3b89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxHeight: 236
   speed: 200
 --- !u!212 &212365356395758496
 SpriteRenderer:

@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour {
     private bool isGameOver = false;
     public int lifesRemaining = 3;
     private int maxLifes = 3;
+    private bool loosingLife = false;
+    private bool isDead = false;
 
     void Start()
     {
@@ -47,31 +49,44 @@ public class GameManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             SceneManager.LoadScene("MenuScene");
         }
-        if (isGameOver)
+        if (isGameOver && isDead)
         {
             if (Input.anyKeyDown)
             {
                 globalControl.SetLifesRemaining(maxLifes);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene("MenuScene");
             }
+        }
+        if (loosingLife && Input.anyKeyDown)
+        {
+            player.GetComponent<Animator>().SetBool("Alive", true);
+            continueSprite.GetComponent<Renderer>().enabled = false;
+            loosingLife = false;
+            player.transform.position = initialPlayerPosition;
+            ball = (GameObject)Instantiate(ballPrefab);
+            ball.transform.position = initialBallPosition;
+            lifesRemaining--;
         }
         if (GameObject.FindGameObjectsWithTag("Ball").Length == 0)
         {
             if (lifesRemaining == 0)
             {
-                // GAME OVER
-                gameOverSprite.GetComponent<Renderer>().enabled = true;
-                continueSprite.GetComponent<Renderer>().enabled = true;
-                isGameOver = true;
-                player.GetComponent<Animator>().SetBool("Alive", false);
-                soundManager.PlayGameOver();
-            } else {
+                if (!isDead)
+                {
+                    // GAME OVER
+                    isDead = true;
+                    gameOverSprite.GetComponent<Renderer>().enabled = true;
+                    isGameOver = true;
+                    player.GetComponent<Animator>().SetBool("Alive", false);
+                    soundManager.PlayGameOver();
+                }
+            } else if (!loosingLife){
                 // LIFE LOST
-                lifes[lifesRemaining-- - 1].SetActive(false);
-                player.transform.position = initialPlayerPosition;
-                ball = (GameObject)Instantiate(ballPrefab);
-                ball.transform.position = initialBallPosition;
+                continueSprite.GetComponent<Renderer>().enabled = true;
+                player.GetComponent<Animator>().SetBool("Alive", false);
+                lifes[lifesRemaining - 1].SetActive(false);
                 soundManager.PlayLifeLost();
+                loosingLife = true;
             }
         }
         if (GameObject.FindGameObjectsWithTag("Brick").Length == 0 || Input.GetKeyDown(KeyCode.Q))
