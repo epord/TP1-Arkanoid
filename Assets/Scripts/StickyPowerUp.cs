@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class StickyPowerUp : MonoBehaviour, PowerUp {
     private Vector2 temp;
-    public float timer = 10;
+    public float Interval = 10;
+    private float timer;
     private bool active;
     private GameObject[] balls;
     private SoundManager soundManager;
@@ -48,9 +49,10 @@ public class StickyPowerUp : MonoBehaviour, PowerUp {
         }
         this.transform.position = new Vector2(-10000, 0);
         var falling = GetComponent<FallingPowerUp>();
-        Destroy(falling);
+        falling.enabled = false;
         active = true;
         soundManager.PlayPowerUp();
+        timer = Interval;
     }
 
     public void UnsetPowerUp()
@@ -66,6 +68,7 @@ public class StickyPowerUp : MonoBehaviour, PowerUp {
                 }
             }
         }
-        Destroy(this);
+        powerUpManager.DestroyPowerUp(gameObject);
+        active = false;
     }
 }

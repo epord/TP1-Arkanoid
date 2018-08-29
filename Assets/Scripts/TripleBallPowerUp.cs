@@ -9,6 +9,7 @@ public class TripleBallPowerUp : MonoBehaviour
     private SoundManager soundManager;
     private ScoreManager scoreManager;
     private BallManager ballManager;
+    private PowerUpManager powerUpManager;
 
     // Use this for initialization
     void Start () {
@@ -16,6 +17,7 @@ public class TripleBallPowerUp : MonoBehaviour
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         ballManager = GameObject.Find("BallManager").GetComponent<BallManager>();
+        powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
         scoreManager.updateScore(gameObject);
     }
 	
@@ -47,7 +49,7 @@ public class TripleBallPowerUp : MonoBehaviour
             }
             
             soundManager.PlayPowerUp();
-            Destroy(this.gameObject);
+            powerUpManager.DestroyPowerUp(gameObject);
         }
     }
 }

@@ -21,13 +21,18 @@ public class PowerUpManager : MonoBehaviour
 	void Start () {
 		powerUps = new GameObject[]
 		{
-            stickyPowerUp,
-            maxLengthPowerUp,
-            minLengthPowerUp,
-            projectilePowerUp,
-            triplePowerUp,
-            lifePowerUp,
+            Instantiate(stickyPowerUp),
+            Instantiate(maxLengthPowerUp),
+            Instantiate(minLengthPowerUp),
+            Instantiate(projectilePowerUp),
+            Instantiate(triplePowerUp),
+            Instantiate(lifePowerUp),
 		};
+
+	    foreach (var powerup in powerUps)
+	    {
+            powerup.SetActive(false);
+	    }
 
         randomManager = GameObject.Find("RandomManager").GetComponent<RandomManager>();
     }
@@ -42,6 +47,19 @@ public class PowerUpManager : MonoBehaviour
     {
         currentPowerUp.UnsetPowerUp();
         currentPowerUp = null;
+    }
+
+    public void DestroyPowerUp(GameObject powerUp)
+    {
+        powerUp.SetActive(false);
+        for (int i = 0; i < powerUps.Length; i++)
+        {
+            if (powerUps[i] == null)
+            {
+                powerUps[i] = powerUp;
+                break;
+            }
+        }
     }
 
     // Called when a new power up appears.
@@ -59,6 +77,28 @@ public class PowerUpManager : MonoBehaviour
     public GameObject RandomPowerUp()
     {
         var i = randomManager.GetRandom().Next(0, powerUps.Length);
-        return powerUps[i];
+        var originalDraw = i;
+        var powerUp = powerUps[i];
+        while (powerUp == null)
+        {
+            i = i == powerUps.Length - 1 ? 0 : i + 1;
+            if (i == originalDraw)
+            {
+                break;
+            }
+            else
+            {
+                powerUp = powerUps[i];
+            }
+        }
+
+        if (powerUp != null)
+        {
+            powerUps[i] = null;
+            powerUp.SetActive(true);
+            powerUp.GetComponent<FallingPowerUp>().enabled = true;
+        }
+
+        return powerUp;
     }
 }

@@ -5,7 +5,8 @@ using UnityEngine;
 public class ProjectilePowerUp : MonoBehaviour, PowerUp
 {
 
-    public float timer = 10;
+    public float Interval = 10;
+    private float timer;
     private bool active;
 	private GameObject player;
     public GameObject projectile1;
@@ -68,13 +69,15 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
         player.GetComponent<Animator>().SetBool("Projectile", true);
         this.transform.position = new Vector2(-10000, 0);
         var falling = GetComponent<FallingPowerUp>();
-        Destroy(falling);
+        falling.enabled = false;
         soundManager.PlayPowerUp();
+        timer = Interval;
     }
 
     public void UnsetPowerUp()
     {
         player.GetComponent<Animator>().SetBool("Projectile", false);
-        Destroy(gameObject);
+        powerUpManager.DestroyPowerUp(gameObject);
+        active = false;
     }
 }

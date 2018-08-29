@@ -7,7 +7,8 @@ public class MinLengthPowerUp : MonoBehaviour, PowerUp
 
     private GameObject player;
     private bool active;
-    public float timer = 10;
+    public float Interval = 10;
+    private float timer;
     private SoundManager soundManager;
     private PowerUpManager powerUpManager;
     private ScoreManager scoreManager;
@@ -48,15 +49,17 @@ public class MinLengthPowerUp : MonoBehaviour, PowerUp
         powerUpManager.SetPowerUp(this);
         player.GetComponent<mover>().SetShortMode();
         var falling = GetComponent<FallingPowerUp>();
-        Destroy(falling);
+        falling.enabled = false;
         active = true;
         this.transform.position = new Vector2(-10000, 0);
         soundManager.PlayPowerUp();
+        timer = Interval;
     }
 
     public void UnsetPowerUp()
     {
         player.GetComponent<mover>().UnsetShortMode();
-        Destroy(gameObject);
+        powerUpManager.DestroyPowerUp(gameObject);
+        active = false;
     }
 }

@@ -44,10 +44,14 @@ public class Blocks : MonoBehaviour
 
         if (randomManager.GetRandom().NextDouble() < dropRate)
         {
-            var bonus = Instantiate(powerUpManager.RandomPowerUp());
-            //bonus.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
-            bonus.transform.position = transform.position;
-            bonus.transform.rotation = transform.rotation;
+            var powerUp = powerUpManager.RandomPowerUp();
+            if (powerUp != null)
+            {
+                //bonus.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
+                powerUp.transform.position = transform.position;
+                powerUp.transform.rotation = transform.rotation;
+            }
+            
         }
 
         if (!Indestructible)
