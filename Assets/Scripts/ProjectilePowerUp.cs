@@ -10,9 +10,11 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
     private bool active;
 	private GameObject player;
     public GameObject projectile1;
+    public int MaxProjectiles = 4;
     private SoundManager soundManager;
     private PowerUpManager powerUpManager;
     private ScoreManager scoreManager;
+    private GameObject[] projectilePool;
 
 
 	// Use this for initialization
@@ -22,13 +24,49 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
 	    powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         scoreManager.updateScore(gameObject);
+        projectilePool = new GameObject[MaxProjectiles];
+	    for (int i = 0; i < projectilePool.Length; i++)
+	    {
+	        projectilePool[i] = Instantiate(projectile1);
+            projectilePool[i].SetActive(false);
+	        projectilePool[i].GetComponent<projectile>().SetProjectilePowerUp(this);
+	    }
+    }
+
+    public void DestroyBullet(GameObject bullet)
+    {
+        bullet.SetActive(false);
+        for (int i = 0; i < projectilePool.Length; i++)
+        {
+            if (projectilePool[i] == null)
+            {
+                projectilePool[i] = bullet;
+                break;
+            }
+        }
     }
 
     private void CreateBullet(Vector2 position)
     {
-        var bullet = Instantiate(projectile1);
-        bullet.transform.position = position;
-        bullet.transform.rotation = transform.rotation;
+        GameObject bullet = null;
+        for (int i = 0; i < projectilePool.Length; i++)
+        {
+            if (projectilePool[i] != null)
+            {
+                bullet = projectilePool[i];
+                projectilePool[i] = null;
+                break;
+            }
+        }
+
+        if (bullet != null)
+        {
+            bullet.SetActive(true);
+            bullet.transform.position = position;
+            bullet.transform.rotation = transform.rotation;
+            bullet.GetComponent<projectile>().ResetVelocity();
+        }
+       
     }
 	
 	// Update is called once per frame
@@ -44,10 +82,7 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
 			{
 				float playerX = player.transform.position.x;
 				float playerY = player.transform.position.y + 5;
-
-				var bullet = Instantiate(projectile1);
-				bullet.transform.position = new Vector2(playerX - 5, playerY);
-				bullet.transform.rotation = transform.rotation;
+                
                 CreateBullet(new Vector2(playerX - 5, playerY));
                 CreateBullet(new Vector2(playerX + 5, playerY));
             }	
