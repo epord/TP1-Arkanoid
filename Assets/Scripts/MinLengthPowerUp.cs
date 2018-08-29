@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MinLengthPowerUp : MonoBehaviour, PowerUp
 {
-
     private GameObject player;
     private bool active;
     public float Interval = 10;
@@ -13,7 +10,6 @@ public class MinLengthPowerUp : MonoBehaviour, PowerUp
     private PowerUpManager powerUpManager;
     private ScoreManager scoreManager;
 
-    // Use this for initialization
     void Start()
     {
         player = GameObject.Find("player");
@@ -23,7 +19,6 @@ public class MinLengthPowerUp : MonoBehaviour, PowerUp
         scoreManager.updateScore(gameObject);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (active)

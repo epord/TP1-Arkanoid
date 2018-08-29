@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class MaxLengthPowerUp : MonoBehaviour, PowerUp {
-
+public class MaxLengthPowerUp : MonoBehaviour, PowerUp
+{
     private GameObject player;
     private bool active;
     public float Interval = 10;
@@ -12,8 +10,8 @@ public class MaxLengthPowerUp : MonoBehaviour, PowerUp {
     private PowerUpManager powerUpManager;
     private ScoreManager scoreManager;
 
-	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
 	    powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
@@ -21,8 +19,8 @@ public class MaxLengthPowerUp : MonoBehaviour, PowerUp {
         scoreManager.updateScore(gameObject);
     }
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		if (active)
         {
             timer = Mathf.Max(timer - Time.deltaTime, 0);

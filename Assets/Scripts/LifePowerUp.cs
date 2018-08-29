@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class LifePowerUp : MonoBehaviour {
 
@@ -8,7 +6,6 @@ public class LifePowerUp : MonoBehaviour {
     private SoundManager soundManager;
     private PowerUpManager powerUpManager;
 
-	// Use this for initialization
     void Start () {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
@@ -19,7 +16,7 @@ public class LifePowerUp : MonoBehaviour {
     {
         if (collision.gameObject.name == "player")
         {
-            gameManager.addLife();
+            gameManager.AddLife();
             soundManager.PlayPowerUp();
             powerUpManager.DestroyPowerUp(gameObject);
         }

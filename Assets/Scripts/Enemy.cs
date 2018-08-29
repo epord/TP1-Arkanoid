@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
@@ -17,7 +15,6 @@ public class Enemy : MonoBehaviour
     private float deathCountDown;
     private SoundManager soundManager;
 
-	// Use this for initialization
 	void Start ()
 	{
 	    animator = GetComponent<Animator>();
@@ -32,7 +29,6 @@ public class Enemy : MonoBehaviour
         alive = true;
     }
 
-	// Update is called once per frame
 	void FixedUpdate ()
 	{
 	    if (alive)

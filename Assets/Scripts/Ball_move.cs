@@ -20,7 +20,6 @@ public class Ball_move : MonoBehaviour {
     private BallManager ballManager;
 
     void Start () {
-        //speed = 0;
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
         ballManager = GameObject.Find("BallManager").GetComponent<BallManager>();
@@ -30,7 +29,7 @@ public class Ball_move : MonoBehaviour {
     {
         if (collision.gameObject.name == "player")
         {
-            float dir = ballBounceDir(collision.transform.position, transform.position, collision.collider.bounds.size.x);
+            float dir = BallBounceDir(collision.transform.position, transform.position, collision.collider.bounds.size.x);
 
             Vector2 newDir = new Vector2(dir, 1).normalized;
             if (stickMode)
@@ -60,12 +59,11 @@ public class Ball_move : MonoBehaviour {
         gameStarted = true;
     }
 
-    private float ballBounceDir(Vector2 player, Vector2 ball, float playerSize)
+    private float BallBounceDir(Vector2 player, Vector2 ball, float playerSize)
     {
         return (ball.x - player.x)/playerSize;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (!gameStarted)

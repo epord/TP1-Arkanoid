@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class SoundManager : MonoBehaviour {
-
+public class SoundManager : MonoBehaviour
+{
     public AudioClip firstHit;
     public AudioClip secondHit;
     public AudioClip thirdHit;
@@ -14,14 +12,6 @@ public class SoundManager : MonoBehaviour {
     public AudioClip lifeLost;
     public AudioClip collisionBallPlayer;
     public AudioSource audioSource;
-
-	void Start () {
-		
-	}
-	
-	void Update () {
-		
-	}
 
     public void PlayFirstHit()
     {

@@ -1,18 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class mover : MonoBehaviour {
 
     public float speed = 150;
-
     // Very hacky trick to update the boxcollider size one frame after the animation has changed
     private int nextFrameReset;
-    
-    // Use this for initialization
-    void Start () {
-	}
+   
 
     private void FixedUpdate()
     {

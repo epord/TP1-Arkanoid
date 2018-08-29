@@ -1,18 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GateManager : MonoBehaviour
 {
     public long EnemySpawnInterval;
     public long CloseInterval;
-
     private long enemySpawnCountdown;
     private long closeCountdown = 0;
     private Animator animator;
     private EnemyManager enemyManager;
 	
-    // Use this for initialization
 	void Start ()
 	{
 	    animator = GetComponent<Animator>();
@@ -20,7 +16,6 @@ public class GateManager : MonoBehaviour
         enemyManager = GameObject.Find("EnemyManager").GetComponent<EnemyManager>();
     }
 	
-	// Update is called once per frame
 	void Update () {
 	    if (closeCountdown > 0)
 	    {
@@ -37,7 +32,6 @@ public class GateManager : MonoBehaviour
 	        if (enemySpawnCountdown == 0)
 	        {
 	            // Spawn an enemy
-
 	            animator.SetBool("Open", true);
 	            var enemy = enemyManager.GetEnemy();
                 if (enemy != null)

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class TripleBallPowerUp : MonoBehaviour
 {
@@ -11,7 +9,6 @@ public class TripleBallPowerUp : MonoBehaviour
     private BallManager ballManager;
     private PowerUpManager powerUpManager;
 
-    // Use this for initialization
     void Start () {
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
@@ -20,11 +17,6 @@ public class TripleBallPowerUp : MonoBehaviour
         powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
         scoreManager.updateScore(gameObject);
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     private void CopyBall(GameObject ball, Vector2 direction)
     {

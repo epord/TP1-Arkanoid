@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Blocks : MonoBehaviour
 {
-    
     private SoundManager soundManager;
     public int hp;
     public double dropRate = 0.10;
@@ -47,7 +44,6 @@ public class Blocks : MonoBehaviour
             var powerUp = powerUpManager.RandomPowerUp();
             if (powerUp != null)
             {
-                //bonus.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform, false);
                 powerUp.transform.position = transform.position;
                 powerUp.transform.rotation = transform.rotation;
             }

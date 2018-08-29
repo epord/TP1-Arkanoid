@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour {
 
-    private static int score;
+    private static int score = 0;
     private static int highscore;
     private List<Sprite> scoreSprites;
     private List<GameObject> scorePrinted;
@@ -49,7 +49,7 @@ public class ScoreManager : MonoBehaviour {
     public Sprite none;
 
     void Start () {
-        score = 0; // Careful, it must not be destroyed at scene change
+        DontDestroyOnLoad(gameObject);
         highscore = 0;
         scorePrinted = new List<GameObject>();
         scoreSprites = new List<Sprite>();
@@ -57,11 +57,7 @@ public class ScoreManager : MonoBehaviour {
         // Print current HighScore on screen
         highscore = PlayerPrefs.GetInt("highscore", highscore);
         PrintHighScore();
-
-
-        //scorePrinted = new List<GameObject>();
         scorePrinted.Clear();
-        //scoreSprites = new List<Sprite>(); 
         scoreSprites.Clear();
         float tempX = scoreX;
         InstantiateLetters(firstLetterScore, tempX, scoreY, zero);
@@ -81,7 +77,6 @@ public class ScoreManager : MonoBehaviour {
     // Handle the graphic part of score changing here 
     void Update()
     {
-        // Update the highScore if necessary
         if (score > highscore)
         {
             highscore = score;
@@ -108,7 +103,7 @@ public class ScoreManager : MonoBehaviour {
 
     public void updateScore(GameObject m_gameobject)
     {
-        if (m_gameobject.tag == "Brick") // To develop more, depending on each block color
+        if (m_gameobject.tag == "Brick")
         {
             score += bricksPoints;
         }

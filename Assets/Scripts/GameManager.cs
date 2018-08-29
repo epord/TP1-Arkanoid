@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
@@ -12,7 +10,6 @@ public class GameManager : MonoBehaviour {
     public GameObject ballPrefab;
     public GameObject[] lifes;
     public string nextScene;
-
     private GlobalControl globalControl;
     private Vector3 initialBallPosition;
     private Vector3 initialPlayerPosition;
@@ -24,7 +21,6 @@ public class GameManager : MonoBehaviour {
 
     void Start()
     {
-
         globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
         lifesRemaining = globalControl.GetComponent<GlobalControl>().GetLifesRemaining();
         gameOverSprite.GetComponent<Renderer>().enabled = false;
@@ -37,7 +33,7 @@ public class GameManager : MonoBehaviour {
         }
     }
 	
-    public void addLife()
+    public void AddLife()
     {
         if (lifesRemaining < maxLifes) {
             lifes[lifesRemaining].SetActive(true);

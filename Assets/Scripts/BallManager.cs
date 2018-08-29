@@ -1,13 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BallManager : MonoBehaviour {
     public long MaxBalls = 10;
     public GameObject baseBallPrefab;
     private GameObject[] balls;
 
-	// Use this for initialization
 	void Start () {
         balls = new GameObject[MaxBalls];
         for (int i = 0; i < balls.Length; i++)
@@ -16,11 +13,6 @@ public class BallManager : MonoBehaviour {
             balls[i].SetActive(false);
             balls[i].tag = "InactiveBall";
         }
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 
     public GameObject GetBall()

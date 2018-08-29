@@ -7,19 +7,14 @@ public class EnemyManager : MonoBehaviour {
     public int MaxEnemies;
     public GameObject EnemyBasePrefab;
     private GameObject[] enemyPool;
-	// Use this for initialization
-	void Start () {
+
+    void Start () {
         enemyPool = new GameObject[MaxEnemies];
         for (int i = 0; i < MaxEnemies; i++)
         {
             enemyPool[i] = Instantiate(EnemyBasePrefab);
             enemyPool[i].SetActive(false);
         }
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
 	}
 
     public GameObject GetEnemy()

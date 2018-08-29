@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class StickyPowerUp : MonoBehaviour, PowerUp {
+public class StickyPowerUp : MonoBehaviour, PowerUp
+{
     private Vector2 temp;
     public float Interval = 10;
     private float timer;

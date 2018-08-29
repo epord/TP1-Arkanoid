@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class ProjectilePowerUp : MonoBehaviour, PowerUp
 {
-
     public float Interval = 10;
     private float timer;
     private bool active;
@@ -16,15 +13,15 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
     private ScoreManager scoreManager;
     private GameObject[] projectilePool;
 
-
-	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
 		player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
 	    powerUpManager = GameObject.Find("PowerUpManager").GetComponent<PowerUpManager>();
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         scoreManager.updateScore(gameObject);
         projectilePool = new GameObject[MaxProjectiles];
+
 	    for (int i = 0; i < projectilePool.Length; i++)
 	    {
 	        projectilePool[i] = Instantiate(projectile1);
@@ -69,8 +66,8 @@ public class ProjectilePowerUp : MonoBehaviour, PowerUp
        
     }
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		if (active) {
 			timer = Mathf.Max(timer - Time.deltaTime, 0);
             if (timer == 0)
