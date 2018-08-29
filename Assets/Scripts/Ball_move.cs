@@ -17,11 +17,13 @@ public class Ball_move : MonoBehaviour {
     public Vector2 initialDir = Vector2.up;
     private SoundManager soundManager;
     public bool gameStarted = false;
+    private BallManager ballManager;
 
     void Start () {
         //speed = 0;
         player = GameObject.Find("player");
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
+        ballManager = GameObject.Find("BallManager").GetComponent<BallManager>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -81,10 +83,8 @@ public class Ball_move : MonoBehaviour {
 
         if (transform.position.y < 0)
         {
-            Destroy(this.gameObject);
+            ballManager.ReleaseBall(gameObject);
         }
-
-        
     }
 
     void LateUpdate()

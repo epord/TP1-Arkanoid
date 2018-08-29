@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - BallManager
   - indestructible_block
+  - InactiveBall
   layers:
   - Default
   - TransparentFX
