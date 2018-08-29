@@ -29,6 +29,7 @@ public class ScoreManager : MonoBehaviour {
     private GameObject fourthLetterHighScore;
     private GameObject fifthLetterHighScore;
     private GameObject sixthLetterHighScore;
+    private GlobalControl globalControl;
 
     // All points constants details
     private int bricksPoints = 50;
@@ -49,7 +50,8 @@ public class ScoreManager : MonoBehaviour {
     public Sprite none;
 
     void Start () {
-        DontDestroyOnLoad(gameObject);
+        globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
+        score = globalControl.GetComponent<GlobalControl>().GetScore();
         highscore = 0;
         scorePrinted = new List<GameObject>();
         scoreSprites = new List<Sprite>();
@@ -98,6 +100,7 @@ public class ScoreManager : MonoBehaviour {
 
     private void OnDestroy()
     {
+        globalControl.SetScore(score);
         PlayerPrefs.SetInt("highscore", highscore);
     }
 

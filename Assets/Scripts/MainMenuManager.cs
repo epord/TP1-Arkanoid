@@ -11,7 +11,7 @@ public class MainMenuManager : MonoBehaviour
 	void Start ()
     {
         globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
-        globalControl.SetLifesRemaining(3);
+        globalControl.resetValues();
         soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<SoundManager>();
         soundManager.PlayTitleScreen();
     }

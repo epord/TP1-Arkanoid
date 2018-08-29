@@ -4,11 +4,18 @@ public class GlobalControl : MonoBehaviour
 {
     public static GlobalControl Instance;
     public int lifesRemaining;
+    public int score;
 
 	private void Start()
 	{
-        lifesRemaining = 3;
+        resetValues();
 	}
+
+    public void resetValues()
+    {
+        lifesRemaining = 3;
+        score = 0;
+    }
 
 	void Awake()
     {
@@ -31,5 +38,15 @@ public class GlobalControl : MonoBehaviour
     public void SetLifesRemaining(int lifes)
     {
         this.lifesRemaining = lifes;
+    }
+
+    public int GetScore()
+    {
+        return score;
+    }
+
+    public void SetScore(int score)
+    {
+        this.score = score;
     }
 }
