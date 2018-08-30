@@ -57,3 +57,6 @@ TagManager:
   - name: SpriteLayer
     uniqueID: 2233027395
     locked: 0
+  - name: HUD
+    uniqueID: 1544978719
+    locked: 0
