@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour {
     public GameObject gameOverSprite;
     public GameObject continueSprite;
     public SoundManager soundManager;
+    private ScoreManager scoreManager;
     public GameObject player;
     public GameObject ball;
     public GameObject ballPrefab;
@@ -18,9 +19,11 @@ public class GameManager : MonoBehaviour {
     private int maxLifes = 3;
     private bool loosingLife = false;
     private bool isDead = false;
+    public bool isOnEndingScreen = false;
 
     void Start()
     {
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
         globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
         lifesRemaining = globalControl.GetComponent<GlobalControl>().GetLifesRemaining();
         gameOverSprite.GetComponent<Renderer>().enabled = false;
@@ -50,7 +53,14 @@ public class GameManager : MonoBehaviour {
             if (Input.anyKeyDown)
             {
                 globalControl.SetLifesRemaining(maxLifes);
-                SceneManager.LoadScene("MenuScene");
+                if (scoreManager.GetNewHighScore())
+                {
+                    SceneManager.LoadScene("EndScene");
+                }
+                else
+                {
+                    SceneManager.LoadScene("MenuScene");
+                }
             }
         }
         if (loosingLife && Input.anyKeyDown)
@@ -63,7 +73,7 @@ public class GameManager : MonoBehaviour {
             ball.transform.position = initialBallPosition;
             lifesRemaining--;
         }
-        if (GameObject.FindGameObjectsWithTag("Ball").Length == 0)
+        if (GameObject.FindGameObjectsWithTag("Ball").Length == 0 && !isOnEndingScreen)
         {
             if (lifesRemaining == 0)
             {
@@ -85,11 +95,22 @@ public class GameManager : MonoBehaviour {
                 loosingLife = true;
             }
         }
+
         if (GameObject.FindGameObjectsWithTag("Brick").Length == 0 || Input.GetKeyDown(KeyCode.Q))
         {
             // WIN
-            globalControl.SetLifesRemaining(lifesRemaining);
-            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+            if (!isOnEndingScreen)
+            {
+                globalControl.SetLifesRemaining(lifesRemaining);
+                SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+            }
+            else
+            {
+                if (Input.anyKeyDown)
+                {
+                    SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
+                }
+            }
         }
     }
         

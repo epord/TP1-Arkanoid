@@ -6,7 +6,8 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour {
 
     private static int score = 0;
-    private static int highscore;
+    private static int highscore = 0;
+    private bool newHighScore = false;
     private List<Sprite> scoreSprites;
     private List<GameObject> scorePrinted;
 
@@ -52,11 +53,11 @@ public class ScoreManager : MonoBehaviour {
     void Start () {
         globalControl = GameObject.Find("GlobalControl").GetComponent<GlobalControl>();
         score = globalControl.GetComponent<GlobalControl>().GetScore();
-        highscore = 0;
         scorePrinted = new List<GameObject>();
         scoreSprites = new List<Sprite>();
 
         // Print current HighScore on screen
+        //ResetHighScore();
         highscore = PlayerPrefs.GetInt("highscore", highscore);
         PrintHighScore();
         scorePrinted.Clear();
@@ -79,9 +80,10 @@ public class ScoreManager : MonoBehaviour {
     // Handle the graphic part of score changing here 
     void Update()
     {
-        if (score > highscore)
+        if (score >= highscore)
         {
             highscore = score;
+            newHighScore = true;
         }
 
         FromIntToSprite(score);
@@ -218,5 +220,15 @@ public class ScoreManager : MonoBehaviour {
             tempX += none.rect.width;
             InstantiateLetters(sixthLetterHighScore, tempX, highscoreY, scoreSprites.ElementAt(5));
         }  
+    }
+
+    public bool GetNewHighScore()
+    {
+        return newHighScore;
+    }
+
+    private void ResetHighScore()
+    {
+        PlayerPrefs.SetInt("highscore", 0);
     }
 }
